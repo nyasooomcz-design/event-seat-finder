@@ -5,9 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ミニフェス 座席検索</title>
   <style>
+    @font-face {
+      font-family: 'Keifont';
+      src: url('keifont.woff2') format('woff2');
+      font-weight: normal;
+      font-style: normal;
+      font-display: swap;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      font-family: 'Keifont', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
       background: #fffcf2;
       color: #384860;
       min-height: 100vh;
@@ -18,19 +26,20 @@
     /* ヘッダー */
     .header {
       background: #384860;
-      color: #fff;
-      padding: 1.8rem 1rem;
+      padding: 1.5rem 1rem;
       text-align: center;
     }
-    .header h1 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      letter-spacing: 0.05em;
+    .header-logo {
+      max-width: 380px;
+      width: 80%;
+      height: auto;
+      display: block;
+      margin: 0 auto 0.6rem;
     }
     .header p {
-      font-size: 0.85rem;
-      opacity: 0.85;
-      margin-top: 0.3rem;
+      color: #fff;
+      font-size: 1rem;
+      opacity: 0.9;
     }
 
     /* 検索エリア */
@@ -54,7 +63,7 @@
     .search-field label {
       display: block;
       font-weight: 700;
-      font-size: 0.9rem;
+      font-size: 0.95rem;
       color: #384860;
       margin-bottom: 0.4rem;
     }
@@ -63,7 +72,8 @@
       padding: 0.7rem 1rem;
       border: 2px solid #e0ddd5;
       border-radius: 40px;
-      font-size: 0.95rem;
+      font-size: 1rem;
+      font-family: 'Keifont', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
       transition: border-color 0.2s;
       outline: none;
       background: #fffcf2;
@@ -75,15 +85,9 @@
     .search-field input::placeholder {
       color: #a09d95;
     }
-    .search-field .hint {
-      font-size: 0.75rem;
-      color: #a09d95;
-      margin-top: 0.3rem;
-      padding-left: 1rem;
-    }
     .search-or {
       text-align: center;
-      font-size: 0.8rem;
+      font-size: 0.85rem;
       color: #a09d95;
       margin-bottom: 1rem;
       position: relative;
@@ -109,7 +113,7 @@
       text-align: center;
       padding: 2rem;
       color: #a09d95;
-      font-size: 0.95rem;
+      font-size: 1rem;
     }
     .error { color: #de1b65; }
 
@@ -122,14 +126,14 @@
       margin-bottom: 1.5rem;
     }
     .profile-card h2 {
-      font-size: 1.15rem;
+      font-size: 1.2rem;
       font-weight: 700;
       color: #384860;
       margin-bottom: 0.25rem;
       word-break: break-all;
     }
     .profile-card .profile-url {
-      font-size: 0.78rem;
+      font-size: 0.8rem;
       color: #de1b65;
       word-break: break-all;
       display: block;
@@ -149,7 +153,7 @@
     }
     .round-section:last-child { margin-bottom: 0; }
     .round-section h3 {
-      font-size: 0.95rem;
+      font-size: 1rem;
       color: #384860;
       margin-bottom: 0.6rem;
       display: flex;
@@ -157,16 +161,12 @@
       gap: 0.5rem;
       font-weight: 700;
     }
-    .round-section h3 .round-label {
-      font-size: 0.85rem;
-      color: #384860;
-    }
     .round-section h3 .table-badge {
       background: #de1b65;
       color: #fff;
       padding: 0.15rem 0.75rem;
       border-radius: 40px;
-      font-size: 1rem;
+      font-size: 1.05rem;
       font-weight: 700;
     }
 
@@ -182,7 +182,7 @@
       border: 1px solid #e0ddd5;
       border-radius: 40px;
       padding: 0.25rem 0.65rem;
-      font-size: 0.82rem;
+      font-size: 0.85rem;
       white-space: nowrap;
     }
     .member-list li.is-me {
@@ -203,12 +203,12 @@
     .footer {
       text-align: center;
       padding: 1.5rem;
-      font-size: 0.72rem;
+      font-size: 0.75rem;
       color: #a09d95;
     }
 
     @media (max-width: 480px) {
-      .header h1 { font-size: 1.3rem; }
+      .header-logo { max-width: 260px; }
       .search-box { padding: 1rem; }
       .round-section { padding: 0.8rem; }
     }
@@ -216,8 +216,8 @@
 </head>
 <body>
   <div class="header">
-    <h1>ミニフェス 座席検索</h1>
-    <p>リベシティ名またはプロフィールURLで座席を検索できます</p>
+    <img src="リベシティ大交流会2026福岡（ミニフェス）_2段.png" alt="リベシティ大交流会 2026 福岡（ミニフェス）" class="header-logo">
+    <p>座席検索</p>
   </div>
 
   <div class="search-container">
@@ -377,14 +377,14 @@
           <a class="profile-url" href="${escapeHTML(entry.url)}" target="_blank" rel="noopener">${escapeHTML(entry.url)}</a>
 
           <div class="round-section">
-            <h3><span class="round-label">1回目</span> テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
+            <h3>1回目 テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
             <ul class="member-list">
               ${members1.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
           </div>
 
           <div class="round-section">
-            <h3><span class="round-label">2回目</span> テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
+            <h3>2回目 テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
             <ul class="member-list">
               ${members2.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
@@ -399,7 +399,6 @@
       return div.innerHTML;
     }
 
-    // 検索フィールドのイベント（片方入力時にもう片方をクリア）
     let debounceTimer;
     const nameInput = document.getElementById('searchName');
     const urlInput = document.getElementById('searchUrl');
