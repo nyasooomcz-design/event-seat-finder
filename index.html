@@ -3,63 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>座席検索 | リベシティイベント</title>
+  <title>ミニフェス 座席検索</title>
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Hiragino Sans', sans-serif;
-      background: #f0f4f8;
-      color: #1a202c;
+      font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      background: #fffcf2;
+      color: #384860;
       min-height: 100vh;
+      font-size: 16px;
+      line-height: 1.6;
     }
+
+    /* ヘッダー */
     .header {
-      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-      color: white;
-      padding: 2rem 1rem;
+      background: #384860;
+      color: #fff;
+      padding: 1.8rem 1rem;
       text-align: center;
     }
     .header h1 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
+      font-size: 1.6rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
     }
     .header p {
-      font-size: 0.9rem;
-      opacity: 0.9;
+      font-size: 0.85rem;
+      opacity: 0.85;
+      margin-top: 0.3rem;
     }
+
+    /* 検索エリア */
     .search-container {
-      max-width: 600px;
-      margin: -1.5rem auto 2rem;
+      max-width: 640px;
+      margin: -1.2rem auto 2rem;
       padding: 0 1rem;
     }
     .search-box {
-      background: white;
+      background: #fff;
       border-radius: 12px;
-      box-shadow: 0 4px 20px rgba(0,0,0,0.12);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       padding: 1.5rem;
     }
-    .search-box label {
-      display: block;
-      font-weight: 600;
-      margin-bottom: 0.5rem;
-      font-size: 0.95rem;
+    .search-field {
+      margin-bottom: 1rem;
     }
-    .search-box input {
+    .search-field:last-child {
+      margin-bottom: 0;
+    }
+    .search-field label {
+      display: block;
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: #384860;
+      margin-bottom: 0.4rem;
+    }
+    .search-field input {
       width: 100%;
-      padding: 0.75rem 1rem;
-      border: 2px solid #e2e8f0;
-      border-radius: 8px;
-      font-size: 1rem;
+      padding: 0.7rem 1rem;
+      border: 2px solid #e0ddd5;
+      border-radius: 40px;
+      font-size: 0.95rem;
       transition: border-color 0.2s;
       outline: none;
+      background: #fffcf2;
+      color: #384860;
     }
-    .search-box input:focus {
-      border-color: #667eea;
+    .search-field input:focus {
+      border-color: #de1b65;
     }
-    .search-box .hint {
+    .search-field input::placeholder {
+      color: #a09d95;
+    }
+    .search-field .hint {
+      font-size: 0.75rem;
+      color: #a09d95;
+      margin-top: 0.3rem;
+      padding-left: 1rem;
+    }
+    .search-or {
+      text-align: center;
       font-size: 0.8rem;
-      color: #718096;
-      margin-top: 0.5rem;
+      color: #a09d95;
+      margin-bottom: 1rem;
+      position: relative;
     }
+    .search-or::before,
+    .search-or::after {
+      content: '';
+      display: inline-block;
+      width: 30%;
+      height: 1px;
+      background: #e0ddd5;
+      vertical-align: middle;
+      margin: 0 0.8rem;
+    }
+
+    /* 結果エリア */
     .result-container {
       max-width: 700px;
       margin: 0 auto 2rem;
@@ -68,104 +108,129 @@
     .no-result, .loading, .error {
       text-align: center;
       padding: 2rem;
-      color: #718096;
+      color: #a09d95;
       font-size: 0.95rem;
     }
-    .error { color: #e53e3e; }
+    .error { color: #de1b65; }
+
+    /* プロフィールカード */
     .profile-card {
-      background: white;
+      background: #fff;
       border-radius: 12px;
-      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       padding: 1.5rem;
       margin-bottom: 1.5rem;
     }
     .profile-card h2 {
-      font-size: 1.2rem;
-      margin-bottom: 0.3rem;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #384860;
+      margin-bottom: 0.25rem;
       word-break: break-all;
     }
     .profile-card .profile-url {
-      font-size: 0.8rem;
-      color: #667eea;
+      font-size: 0.78rem;
+      color: #de1b65;
       word-break: break-all;
       display: block;
-      margin-bottom: 1rem;
+      margin-bottom: 1.2rem;
       text-decoration: none;
     }
-    .profile-card .profile-url:hover { text-decoration: underline; }
+    .profile-card .profile-url:hover {
+      text-decoration: underline;
+    }
+
+    /* ラウンドセクション */
     .round-section {
-      background: #f7fafc;
+      background: #f7f7f7;
       border-radius: 8px;
-      padding: 1rem;
-      margin-bottom: 1rem;
+      padding: 1rem 1.2rem;
+      margin-bottom: 0.8rem;
     }
     .round-section:last-child { margin-bottom: 0; }
     .round-section h3 {
-      font-size: 1rem;
-      color: #4a5568;
-      margin-bottom: 0.75rem;
+      font-size: 0.95rem;
+      color: #384860;
+      margin-bottom: 0.6rem;
       display: flex;
       align-items: center;
       gap: 0.5rem;
-    }
-    .round-section h3 .table-badge {
-      background: linear-gradient(135deg, #667eea, #764ba2);
-      color: white;
-      padding: 0.2rem 0.7rem;
-      border-radius: 20px;
-      font-size: 1.1rem;
       font-weight: 700;
     }
+    .round-section h3 .round-label {
+      font-size: 0.85rem;
+      color: #384860;
+    }
+    .round-section h3 .table-badge {
+      background: #de1b65;
+      color: #fff;
+      padding: 0.15rem 0.75rem;
+      border-radius: 40px;
+      font-size: 1rem;
+      font-weight: 700;
+    }
+
+    /* メンバーリスト */
     .member-list {
       list-style: none;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.4rem;
+      gap: 0.35rem;
     }
     .member-list li {
-      background: white;
-      border: 1px solid #e2e8f0;
-      border-radius: 6px;
-      padding: 0.3rem 0.6rem;
-      font-size: 0.85rem;
+      background: #fff;
+      border: 1px solid #e0ddd5;
+      border-radius: 40px;
+      padding: 0.25rem 0.65rem;
+      font-size: 0.82rem;
       white-space: nowrap;
     }
     .member-list li.is-me {
-      background: #667eea;
-      color: white;
-      border-color: #667eea;
-      font-weight: 600;
+      background: #de1b65;
+      color: #fff;
+      border-color: #de1b65;
+      font-weight: 700;
     }
     .member-list li a {
       color: inherit;
       text-decoration: none;
     }
     .member-list li:not(.is-me) a:hover {
-      text-decoration: underline;
+      color: #de1b65;
     }
+
+    /* フッター */
     .footer {
       text-align: center;
       padding: 1.5rem;
-      font-size: 0.75rem;
-      color: #a0aec0;
+      font-size: 0.72rem;
+      color: #a09d95;
     }
+
     @media (max-width: 480px) {
-      .header h1 { font-size: 1.2rem; }
+      .header h1 { font-size: 1.3rem; }
       .search-box { padding: 1rem; }
+      .round-section { padding: 0.8rem; }
     }
   </style>
 </head>
 <body>
   <div class="header">
-    <h1>リベシティイベント 座席検索</h1>
-    <p>リベシティ名またはプロフィールURLで検索できます</p>
+    <h1>ミニフェス 座席検索</h1>
+    <p>リベシティ名またはプロフィールURLで座席を検索できます</p>
   </div>
 
   <div class="search-container">
     <div class="search-box">
-      <label for="searchInput">検索</label>
-      <input type="text" id="searchInput" placeholder="リベシティ名 または プロフィールURLを入力...">
-      <p class="hint">例：「Bora太郎」「libecity.com/user_profile/xxx」</p>
+      <div class="search-field">
+        <label for="searchName">リベシティ名</label>
+        <input type="text" id="searchName" placeholder="例：Bora太郎">
+      </div>
+      <div class="search-or">または</div>
+      <div class="search-field">
+        <label for="searchUrl">プロフィールURL</label>
+        <input type="text" id="searchUrl" placeholder="例：libecity.com/user_profile/xxx">
+      </div>
     </div>
   </div>
 
@@ -183,10 +248,9 @@
     const CSV_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/export?format=csv&gid=${GID}`;
 
     let allData = [];
-    let table1Groups = {};  // テーブル名 → メンバー配列
+    let table1Groups = {};
     let table2Groups = {};
 
-    // CSV読み込み
     async function loadData() {
       const results = document.getElementById('results');
       results.innerHTML = '<p class="loading">データを読み込み中...</p>';
@@ -198,7 +262,7 @@
         parseCSV(text);
         results.innerHTML = '<p class="no-result" id="initialMessage">リベシティ名またはプロフィールURLを入力して検索してください</p>';
       } catch (e) {
-        results.innerHTML = `<p class="error">データの読み込みに失敗しました。<br>ページを再読み込みしてください。</p>`;
+        results.innerHTML = '<p class="error">データの読み込みに失敗しました。<br>ページを再読み込みしてください。</p>';
         console.error(e);
       }
     }
@@ -210,7 +274,6 @@
       for (const line of lines) {
         const cols = parseCSVLine(line);
 
-        // ヘッダー行を検出
         if (!dataStarted) {
           if (cols[0] && cols[0].includes('リベシティ名')) {
             dataStarted = true;
@@ -218,7 +281,6 @@
           continue;
         }
 
-        // データ行
         const name = (cols[0] || '').trim();
         const url = (cols[1] || '').trim();
         const table1 = (cols[2] || '').trim();
@@ -231,7 +293,6 @@
         const entry = { name, url, table1, serial1, table2, serial2 };
         allData.push(entry);
 
-        // グループ分け
         if (table1) {
           if (!table1Groups[table1]) table1Groups[table1] = [];
           table1Groups[table1].push(entry);
@@ -243,7 +304,6 @@
       }
     }
 
-    // CSV行パーサー（ダブルクォート対応）
     function parseCSVLine(line) {
       const result = [];
       let current = '';
@@ -277,24 +337,28 @@
       return result;
     }
 
-    function search(query) {
+    function doSearch() {
+      const nameQuery = document.getElementById('searchName').value.trim().toLowerCase();
+      const urlQuery = document.getElementById('searchUrl').value.trim().toLowerCase();
       const results = document.getElementById('results');
-      if (!query.trim()) {
+
+      if (!nameQuery && !urlQuery) {
         results.innerHTML = '<p class="no-result">リベシティ名またはプロフィールURLを入力して検索してください</p>';
         return;
       }
 
-      const q = query.trim().toLowerCase();
-      const matches = allData.filter(d =>
-        d.name.toLowerCase().includes(q) || d.url.toLowerCase().includes(q)
-      );
+      let matches;
+      if (nameQuery) {
+        matches = allData.filter(d => d.name.toLowerCase().includes(nameQuery));
+      } else {
+        matches = allData.filter(d => d.url.toLowerCase().includes(urlQuery));
+      }
 
       if (matches.length === 0) {
         results.innerHTML = '<p class="no-result">該当するデータが見つかりませんでした</p>';
         return;
       }
 
-      // 多すぎる場合は上位10件に制限
       const shown = matches.slice(0, 10);
       results.innerHTML = shown.map(m => renderResult(m)).join('');
 
@@ -313,14 +377,14 @@
           <a class="profile-url" href="${escapeHTML(entry.url)}" target="_blank" rel="noopener">${escapeHTML(entry.url)}</a>
 
           <div class="round-section">
-            <h3>1回目（9:30〜11:30） テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
+            <h3><span class="round-label">1回目</span> テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
             <ul class="member-list">
               ${members1.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
           </div>
 
           <div class="round-section">
-            <h3>2回目 テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
+            <h3><span class="round-label">2回目</span> テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
             <ul class="member-list">
               ${members2.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
@@ -335,14 +399,23 @@
       return div.innerHTML;
     }
 
-    // 入力イベント（デバウンス付き）
+    // 検索フィールドのイベント（片方入力時にもう片方をクリア）
     let debounceTimer;
-    document.getElementById('searchInput').addEventListener('input', (e) => {
+    const nameInput = document.getElementById('searchName');
+    const urlInput = document.getElementById('searchUrl');
+
+    nameInput.addEventListener('input', () => {
+      urlInput.value = '';
       clearTimeout(debounceTimer);
-      debounceTimer = setTimeout(() => search(e.target.value), 300);
+      debounceTimer = setTimeout(doSearch, 300);
     });
 
-    // 初期読み込み
+    urlInput.addEventListener('input', () => {
+      nameInput.value = '';
+      clearTimeout(debounceTimer);
+      debounceTimer = setTimeout(doSearch, 300);
+    });
+
     loadData();
   </script>
 </body>
