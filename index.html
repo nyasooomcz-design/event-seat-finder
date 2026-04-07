@@ -42,10 +42,22 @@
       opacity: 0.9;
     }
 
+    /* 説明書き */
+    .description-bar {
+      background: #fff;
+      border-bottom: 2px solid #e0ddd5;
+      padding: 0.8rem 1rem;
+      text-align: center;
+      font-size: 0.95rem;
+      color: #384860;
+      font-weight: 700;
+      line-height: 1.8;
+    }
+
     /* 検索エリア */
     .search-container {
       max-width: 640px;
-      margin: -1.2rem auto 2rem;
+      margin: 1rem auto 2rem;
       padding: 0 1rem;
     }
     .search-box {
@@ -109,13 +121,33 @@
       margin: 0 auto 2rem;
       padding: 0 1rem;
     }
-    .no-result, .loading, .error {
+    .no-result, .loading {
       text-align: center;
       padding: 2rem;
       color: #a09d95;
       font-size: 1rem;
     }
-    .error { color: #de1b65; }
+
+    /* エラー表示 */
+    .error-box {
+      background: #fff5f5;
+      border: 2px solid #de1b65;
+      border-radius: 12px;
+      padding: 1.5rem;
+      text-align: center;
+      margin: 1rem 0;
+    }
+    .error-box .error-title {
+      color: #de1b65;
+      font-weight: 700;
+      font-size: 1.05rem;
+      margin-bottom: 0.5rem;
+    }
+    .error-box .error-message {
+      color: #384860;
+      font-size: 0.9rem;
+      line-height: 1.7;
+    }
 
     /* プロフィールカード */
     .profile-card {
@@ -197,6 +229,115 @@
     }
     .member-list li:not(.is-me) a:hover {
       color: #de1b65;
+    }
+
+    /* テーブル配置図 */
+    .layout-section {
+      max-width: 700px;
+      margin: 0 auto 2rem;
+      padding: 0 1rem;
+    }
+    .layout-title {
+      font-size: 1.1rem;
+      color: #384860;
+      margin-bottom: 0.8rem;
+      text-align: center;
+      font-weight: 700;
+    }
+    .layout-legend {
+      display: flex;
+      justify-content: center;
+      gap: 1.2rem;
+      margin-bottom: 0.6rem;
+      font-size: 0.82rem;
+    }
+    .layout-legend span {
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+    .legend-dot {
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      display: inline-block;
+    }
+    .legend-dot.round1 { background: #3b82f6; }
+    .legend-dot.round2 { background: #ef4444; }
+    .layout-wrapper {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem 0.5rem;
+      overflow-x: auto;
+    }
+    .layout-grid {
+      display: grid;
+      grid-template-columns: auto repeat(5, 1fr);
+      gap: 3px;
+      min-width: 340px;
+      padding: 0.5rem;
+    }
+    .layout-stage {
+      grid-row: 1 / -1;
+      grid-column: 1;
+      background: #ccc;
+      color: #fff;
+      font-weight: 700;
+      font-size: 0.85rem;
+      writing-mode: vertical-rl;
+      text-align: center;
+      padding: 0.5rem 0.3rem;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 28px;
+    }
+    .layout-cell {
+      display: flex;
+      gap: 2px;
+      justify-content: center;
+    }
+    .layout-table {
+      position: relative;
+      border-radius: 5px;
+      padding: 0.2rem 0.3rem;
+      font-size: 0.65rem;
+      font-weight: 700;
+      text-align: center;
+      min-width: 30px;
+      color: #384860;
+    }
+    .layout-table.col-A { background: #d4edbc; }
+    .layout-table.col-B { background: #bde4f4; }
+    .layout-table.col-C { background: #f8d0de; }
+    .layout-table.col-D { background: #fdd8b2; }
+    .layout-table.col-E { background: #fdf3b2; }
+    .layout-table .marker {
+      position: absolute;
+      width: 16px;
+      height: 16px;
+      border-radius: 50%;
+      border: 2px solid #fff;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+    .layout-table .marker.round1 {
+      background: #3b82f6;
+      top: -8px;
+      left: -6px;
+    }
+    .layout-table .marker.round2 {
+      background: #ef4444;
+      top: -8px;
+      right: -6px;
+    }
+    .layout-entrance {
+      text-align: center;
+      font-weight: 700;
+      font-size: 0.8rem;
+      color: #384860;
+      padding-top: 0.3rem;
     }
 
     /* 一覧セクション */
@@ -338,6 +479,10 @@
       font-size: 0.75rem;
       color: #a09d95;
     }
+    .footer .update-time {
+      display: block;
+      margin-top: 0.3rem;
+    }
 
     @media (max-width: 480px) {
       .header-logo { max-width: 260px; }
@@ -345,6 +490,10 @@
       .round-section { padding: 0.8rem; }
       .name-table { font-size: 0.78rem; }
       .name-table th, .name-table td { padding: 0.35rem 0.4rem; }
+      .layout-table { font-size: 0.55rem; min-width: 24px; }
+      .layout-table .marker { width: 12px; height: 12px; }
+      .layout-table .marker.round1 { top: -6px; left: -4px; }
+      .layout-table .marker.round2 { top: -6px; right: -4px; }
     }
   </style>
 </head>
@@ -353,6 +502,8 @@
     <img src="リベシティ大交流会2026福岡（ミニフェス）_2段.png" alt="リベシティ大交流会 2026 福岡（ミニフェス）" class="header-logo">
     <p>座席検索</p>
   </div>
+
+  <div class="description-bar" id="descriptionBar" style="display:none;"></div>
 
   <div class="search-container">
     <div class="search-box">
@@ -369,7 +520,27 @@
   </div>
 
   <div class="result-container" id="results">
-    <p class="no-result" id="initialMessage">リベシティ名またはプロフィールURLを入力して検索してください</p>
+    <p class="loading">データを読み込み中...</p>
+  </div>
+
+  <!-- テーブル配置図 -->
+  <div class="layout-section" id="layoutSection" style="display:none;">
+    <div class="layout-title">テーブルレイアウト</div>
+    <div class="layout-legend" id="layoutLegend" style="display:none;">
+      <span><span class="legend-dot round1"></span> グループ①</span>
+      <span><span class="legend-dot round2"></span> グループ②</span>
+    </div>
+    <div class="layout-wrapper">
+      <div class="layout-grid" id="layoutGrid"></div>
+      <div style="display:grid; grid-template-columns: auto repeat(5, 1fr); gap:3px; padding: 0 0.5rem 0.5rem;">
+        <div></div>
+        <div></div>
+        <div class="layout-entrance">入口</div>
+        <div></div>
+        <div class="layout-entrance">入口</div>
+        <div></div>
+      </div>
+    </div>
   </div>
 
   <div class="list-section" id="listSection" style="display:none;">
@@ -383,14 +554,14 @@
     </div>
 
     <button class="accordion-btn" onclick="toggleAccordion('table1List', this)">
-      1回目 テーブル順 <span class="arrow">▼</span>
+      グループ① テーブル順 <span class="arrow">▼</span>
     </button>
     <div class="accordion-content" id="table1List">
       <div class="accordion-inner" id="table1ListInner"></div>
     </div>
 
     <button class="accordion-btn" onclick="toggleAccordion('table2List', this)">
-      2回目 テーブル順 <span class="arrow">▼</span>
+      グループ② テーブル順 <span class="arrow">▼</span>
     </button>
     <div class="accordion-content" id="table2List">
       <div class="accordion-inner" id="table2ListInner"></div>
@@ -399,102 +570,86 @@
 
   <div class="footer">
     データはGoogleスプレッドシートから取得しています
+    <span class="update-time" id="updateTime"></span>
   </div>
 
   <script>
-    const SPREADSHEET_ID = '1KiYzG4fGmfUKQzs3HRnqZspSx2UMJ33_QCcMdAXuzsQ';
-    const GID = '1790222964';
-    const CSV_URL = `https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/export?format=csv&gid=${GID}`;
-
     let allData = [];
     let table1Groups = {};
     let table2Groups = {};
+    let allTableIds = new Set();
+    let highlightTable1 = null;
+    let highlightTable2 = null;
 
     async function loadData() {
       const results = document.getElementById('results');
-      results.innerHTML = '<p class="loading">データを読み込み中...</p>';
 
       try {
-        const res = await fetch(CSV_URL);
-        if (!res.ok) throw new Error('データの取得に失敗しました');
-        const text = await res.text();
-        parseCSV(text);
+        const res = await fetch('data.json');
+
+        if (res.status === 404) {
+          showError('データの準備中です', 'まだデータが登録されていません。\nしばらくお待ちください。');
+          return;
+        }
+
+        if (!res.ok) {
+          showError('データを読み込めませんでした', '通信環境を確認のうえ、ページを再読み込みしてください。');
+          return;
+        }
+
+        const json = await res.json();
+
+        // 説明書きを表示
+        if (json.description) {
+          const descBar = document.getElementById('descriptionBar');
+          descBar.textContent = json.description;
+          descBar.style.display = '';
+        }
+
+        // 更新日時を表示
+        if (json.updatedAt) {
+          document.getElementById('updateTime').textContent = '最終更新: ' + json.updatedAt;
+        }
+
+        // データが空の場合
+        if (!json.data || json.data.length === 0) {
+          showError('データが登録されていません', '運営にお問い合わせください。');
+          return;
+        }
+
+        // データを読み込み
+        for (const entry of json.data) {
+          allData.push(entry);
+
+          if (entry.table1) {
+            if (!table1Groups[entry.table1]) table1Groups[entry.table1] = [];
+            table1Groups[entry.table1].push(entry);
+            allTableIds.add(entry.table1);
+          }
+          if (entry.table2) {
+            if (!table2Groups[entry.table2]) table2Groups[entry.table2] = [];
+            table2Groups[entry.table2].push(entry);
+            allTableIds.add(entry.table2);
+          }
+        }
+
         buildLists();
-        results.innerHTML = '<p class="no-result" id="initialMessage">リベシティ名またはプロフィールURLを入力して検索してください</p>';
+        buildLayoutGrid();
+        results.innerHTML = '<p class="no-result">リベシティ名またはプロフィールURLを入力して検索してください</p>';
+
       } catch (e) {
-        results.innerHTML = '<p class="error">データの読み込みに失敗しました。<br>ページを再読み込みしてください。</p>';
+        showError('データを読み込めませんでした', '通信環境を確認のうえ、ページを再読み込みしてください。');
         console.error(e);
       }
     }
 
-    function parseCSV(text) {
-      const lines = text.split('\n');
-      let dataStarted = false;
-
-      for (const line of lines) {
-        const cols = parseCSVLine(line);
-
-        if (!dataStarted) {
-          if (cols[0] && cols[0].includes('リベシティ名')) {
-            dataStarted = true;
-          }
-          continue;
-        }
-
-        const name = (cols[0] || '').trim();
-        const url = (cols[1] || '').trim();
-        const table1 = (cols[2] || '').trim();
-        const serial1 = (cols[3] || '').trim();
-        const table2 = (cols[4] || '').trim();
-        const serial2 = (cols[5] || '').trim();
-
-        if (!name && !url) continue;
-
-        const entry = { name, url, table1, serial1, table2, serial2 };
-        allData.push(entry);
-
-        if (table1) {
-          if (!table1Groups[table1]) table1Groups[table1] = [];
-          table1Groups[table1].push(entry);
-        }
-        if (table2) {
-          if (!table2Groups[table2]) table2Groups[table2] = [];
-          table2Groups[table2].push(entry);
-        }
-      }
-    }
-
-    function parseCSVLine(line) {
-      const result = [];
-      let current = '';
-      let inQuotes = false;
-
-      for (let i = 0; i < line.length; i++) {
-        const ch = line[i];
-        if (inQuotes) {
-          if (ch === '"') {
-            if (i + 1 < line.length && line[i + 1] === '"') {
-              current += '"';
-              i++;
-            } else {
-              inQuotes = false;
-            }
-          } else {
-            current += ch;
-          }
-        } else {
-          if (ch === '"') {
-            inQuotes = true;
-          } else if (ch === ',') {
-            result.push(current);
-            current = '';
-          } else {
-            current += ch;
-          }
-        }
-      }
-      result.push(current);
-      return result;
+    function showError(title, message) {
+      const results = document.getElementById('results');
+      results.innerHTML = `
+        <div class="error-box">
+          <div class="error-title">${escapeHTML(title)}</div>
+          <div class="error-message">${escapeHTML(message).replace(/\n/g, '<br>')}</div>
+        </div>`;
     }
 
     function doSearch() {
@@ -504,6 +659,9 @@
 
       if (!nameQuery && !urlQuery) {
         results.innerHTML = '<p class="no-result">リベシティ名またはプロフィールURLを入力して検索してください</p>';
+        highlightTable1 = null;
+        highlightTable2 = null;
+        updateLayoutMarkers();
         return;
       }
 
@@ -516,6 +674,9 @@
 
       if (matches.length === 0) {
         results.innerHTML = '<p class="no-result">該当するデータが見つかりませんでした</p>';
+        highlightTable1 = null;
+        highlightTable2 = null;
+        updateLayoutMarkers();
         return;
       }
 
@@ -525,6 +686,16 @@
       if (matches.length > 10) {
         results.innerHTML += `<p class="no-result">他 ${matches.length - 10} 件が該当しています。検索条件を絞り込んでください。</p>`;
       }
+
+      // 1件の場合、配置図にマーカー表示
+      if (matches.length === 1) {
+        highlightTable1 = matches[0].table1;
+        highlightTable2 = matches[0].table2;
+      } else {
+        highlightTable1 = null;
+        highlightTable2 = null;
+      }
+      updateLayoutMarkers();
     }
 
     function renderResult(entry) {
@@ -537,14 +708,14 @@
           <a class="profile-url" href="${escapeHTML(entry.url)}" target="_blank" rel="noopener">${escapeHTML(entry.url)}</a>
 
           <div class="round-section">
-            <h3>1回目 テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
+            <h3>グループ① テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
             <ul class="member-list">
               ${members1.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
           </div>
 
           <div class="round-section">
-            <h3>2回目 テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
+            <h3>グループ② テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
             <ul class="member-list">
               ${members2.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
@@ -557,6 +728,116 @@
       const div = document.createElement('div');
       div.textContent = str;
       return div.innerHTML;
+    }
+
+    // テーブル配置図を構築（データから動的に生成）
+    function buildLayoutGrid() {
+      // テーブルIDからカラム(A-E)と番号を抽出
+      const columns = {};
+      let maxNum = 0;
+      for (const id of allTableIds) {
+        const match = id.match(/^([A-Z])-(\d+)$/);
+        if (!match) continue;
+        const col = match[1];
+        const num = parseInt(match[2]);
+        if (!columns[col]) columns[col] = new Set();
+        columns[col].add(num);
+        if (num > maxNum) maxNum = num;
+      }
+
+      const colLetters = Object.keys(columns).sort();
+      if (colLetters.length === 0) return;
+
+      // 色マッピング
+      const colColors = { A: 'col-A', B: 'col-B', C: 'col-C', D: 'col-D', E: 'col-E' };
+
+      // 行数（2テーブルずつペア: 1-2, 3-4, 5-6, ...）
+      const rowPairs = Math.ceil(maxNum / 2);
+
+      const grid = document.getElementById('layoutGrid');
+      grid.style.gridTemplateColumns = `auto repeat(${colLetters.length}, 1fr)`;
+      grid.style.gridTemplateRows = `repeat(${rowPairs}, auto)`;
+
+      // ステージ
+      const stage = document.createElement('div');
+      stage.className = 'layout-stage';
+      stage.textContent = 'ステージ';
+      stage.style.gridRow = `1 / ${rowPairs + 1}`;
+      grid.appendChild(stage);
+
+      // テーブルを上から下へ（大きい番号が上）
+      for (let row = rowPairs; row >= 1; row--) {
+        const num1 = row * 2 - 1;
+        const num2 = row * 2;
+        for (const col of colLetters) {
+          const cell = document.createElement('div');
+          cell.className = 'layout-cell';
+
+          const colorClass = colColors[col] || 'col-A';
+
+          // 左テーブル（奇数）
+          if (columns[col] && columns[col].has(num1)) {
+            const t = document.createElement('div');
+            t.className = `layout-table ${colorClass}`;
+            t.id = `layout-${col}-${num1}`;
+            t.textContent = `${col}-${num1}`;
+            cell.appendChild(t);
+          } else {
+            const empty = document.createElement('div');
+            empty.style.minWidth = '30px';
+            cell.appendChild(empty);
+          }
+
+          // 右テーブル（偶数）
+          if (columns[col] && columns[col].has(num2)) {
+            const t = document.createElement('div');
+            t.className = `layout-table ${colorClass}`;
+            t.id = `layout-${col}-${num2}`;
+            t.textContent = `${col}-${num2}`;
+            cell.appendChild(t);
+          } else {
+            const empty = document.createElement('div');
+            empty.style.minWidth = '30px';
+            cell.appendChild(empty);
+          }
+
+          grid.appendChild(cell);
+        }
+      }
+
+      document.getElementById('layoutSection').style.display = '';
+    }
+
+    function updateLayoutMarkers() {
+      // 既存のマーカーを全削除
+      document.querySelectorAll('.layout-table .marker').forEach(el => el.remove());
+
+      const legend = document.getElementById('layoutLegend');
+
+      if (!highlightTable1 && !highlightTable2) {
+        legend.style.display = 'none';
+        return;
+      }
+
+      legend.style.display = 'flex';
+
+      if (highlightTable1) {
+        const el = document.getElementById('layout-' + highlightTable1);
+        if (el) {
+          const m = document.createElement('div');
+          m.className = 'marker round1';
+          el.appendChild(m);
+          el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+        }
+      }
+      if (highlightTable2) {
+        const el = document.getElementById('layout-' + highlightTable2);
+        if (el) {
+          const m = document.createElement('div');
+          m.className = 'marker round2';
+          el.appendChild(m);
+        }
+      }
     }
 
     let debounceTimer;
@@ -581,17 +862,17 @@
 
       // 名前順
       const sorted = [...allData].sort((a, b) => a.name.localeCompare(b.name, 'ja'));
-      let nameHTML = '<table class="name-table"><thead><tr><th>リベシティ名</th><th>1回目</th><th>2回目</th></tr></thead><tbody>';
+      let nameHTML = '<table class="name-table"><thead><tr><th>リベシティ名</th><th>グループ①</th><th>グループ②</th></tr></thead><tbody>';
       for (const d of sorted) {
         nameHTML += `<tr><td><a href="${escapeHTML(d.url)}" target="_blank" rel="noopener">${escapeHTML(d.name)}</a></td><td>${escapeHTML(d.table1)}</td><td>${escapeHTML(d.table2)}</td></tr>`;
       }
       nameHTML += '</tbody></table>';
       document.getElementById('nameListInner').innerHTML = nameHTML;
 
-      // 1回目テーブル順
+      // グループ①テーブル順
       document.getElementById('table1ListInner').innerHTML = buildTableGroupHTML(table1Groups);
 
-      // 2回目テーブル順
+      // グループ②テーブル順
       document.getElementById('table2ListInner').innerHTML = buildTableGroupHTML(table2Groups);
     }
 
@@ -623,7 +904,6 @@
 
     function toggleAccordion(id, btn) {
       const content = document.getElementById(id);
-      const isOpen = content.classList.contains('open');
       content.classList.toggle('open');
       btn.classList.toggle('active');
     }
