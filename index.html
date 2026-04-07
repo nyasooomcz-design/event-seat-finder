@@ -36,12 +36,6 @@
       display: block;
       margin: 0 auto 0.6rem;
     }
-    .header p {
-      color: #fff;
-      font-size: 1rem;
-      opacity: 0.9;
-    }
-
     /* 開催回バッジ */
     .round-badge {
       display: inline-block;
@@ -654,7 +648,6 @@
     let allData = [];
     let table1Groups = {};
     let table2Groups = {};
-    let allTableIds = new Set();
     let highlightTable1 = null;
     let highlightTable2 = null;
 
@@ -694,12 +687,10 @@
           if (entry.table1) {
             if (!table1Groups[entry.table1]) table1Groups[entry.table1] = [];
             table1Groups[entry.table1].push(entry);
-            allTableIds.add(entry.table1);
           }
           if (entry.table2) {
             if (!table2Groups[entry.table2]) table2Groups[entry.table2] = [];
             table2Groups[entry.table2].push(entry);
-            allTableIds.add(entry.table2);
           }
         }
 
@@ -822,17 +813,10 @@
       return div.innerHTML;
     }
 
-    // 有効なテーブルID一覧（画像の配置図に基づく固定値）
-    const VALID_TABLES = new Set();
+    // テーブル配置図を構築（画像通りの固定レイアウト: A-1〜E-12）
     const LAYOUT_COLS = ['A', 'B', 'C', 'D', 'E'];
     const LAYOUT_MAX_NUM = 12;
-    for (const col of LAYOUT_COLS) {
-      for (let n = 1; n <= LAYOUT_MAX_NUM; n++) {
-        VALID_TABLES.add(`${col}-${n}`);
-      }
-    }
 
-    // テーブル配置図を構築（画像通りの固定レイアウト: A-1〜E-12）
     function buildLayoutGrid() {
       const colColors = { A: 'col-A', B: 'col-B', C: 'col-C', D: 'col-D', E: 'col-E' };
       const rowPairs = LAYOUT_MAX_NUM / 2; // 6行
@@ -896,14 +880,12 @@
         const el = document.getElementById('layout-' + highlightTable1);
         if (el) {
           el.classList.add('highlighted', 'hl-both');
-
         }
       } else {
         if (highlightTable1) {
           const el = document.getElementById('layout-' + highlightTable1);
           if (el) {
             el.classList.add('highlighted', 'hl-round1');
-  
           }
         }
         if (highlightTable2) {
