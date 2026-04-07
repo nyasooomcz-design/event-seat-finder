@@ -44,20 +44,14 @@
 
     /* 開催回バッジ */
     .round-badge {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.5rem;
+      display: inline-block;
       background: #478e21;
       color: #fff;
-      padding: 0.5rem 1.2rem;
+      padding: 0.4rem 1.4rem;
       border-radius: 40px;
       font-size: 1.1rem;
       font-weight: 700;
       margin-top: 0.6rem;
-    }
-    .round-badge img {
-      height: 28px;
-      width: auto;
     }
 
     /* 説明書き */
@@ -286,15 +280,16 @@
       background: #fff;
       border-radius: 12px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-      padding: 1rem 0.5rem;
-      overflow-x: auto;
+      padding: 1rem 0.3rem;
+      overflow: visible;
     }
     .layout-grid {
       display: grid;
       grid-template-columns: auto repeat(5, 1fr);
-      gap: 3px;
-      min-width: 340px;
-      padding: 0.5rem;
+      gap: 6px 4px;
+      min-width: 320px;
+      padding: 12px 6px 6px;
+      overflow: visible;
     }
     .layout-stage {
       grid-row: 1 / -1;
@@ -310,45 +305,69 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      min-width: 28px;
+      min-width: 26px;
     }
     .layout-cell {
       display: flex;
       gap: 2px;
       justify-content: center;
+      overflow: visible;
     }
     .layout-table {
       position: relative;
       border-radius: 5px;
-      padding: 0.2rem 0.3rem;
-      font-size: 0.65rem;
+      padding: 0.25rem 0.2rem;
+      font-size: 0.6rem;
       font-weight: 700;
       text-align: center;
-      min-width: 30px;
+      min-width: 28px;
       color: #384860;
+      overflow: visible;
     }
     .layout-table.col-A { background: #d4edbc; }
     .layout-table.col-B { background: #bde4f4; }
     .layout-table.col-C { background: #f8d0de; }
     .layout-table.col-D { background: #fdd8b2; }
     .layout-table.col-E { background: #fdf3b2; }
+    .layout-table.highlighted {
+      outline: 3px solid;
+      outline-offset: 1px;
+      z-index: 2;
+    }
+    .layout-table.highlighted.hl-round1 {
+      outline-color: #3b82f6;
+    }
+    .layout-table.highlighted.hl-round2 {
+      outline-color: #ef4444;
+    }
+    .layout-table.highlighted.hl-both {
+      outline-color: #8b5cf6;
+    }
     .layout-table .marker {
       position: absolute;
-      width: 16px;
-      height: 16px;
+      width: 18px;
+      height: 18px;
       border-radius: 50%;
       border: 2px solid #fff;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.3);
+      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      z-index: 3;
+      pointer-events: none;
     }
     .layout-table .marker.round1 {
       background: #3b82f6;
-      top: -8px;
-      left: -6px;
+      top: -10px;
+      left: 50%;
+      transform: translateX(-70%);
     }
     .layout-table .marker.round2 {
       background: #ef4444;
-      top: -8px;
-      right: -6px;
+      top: -10px;
+      left: 50%;
+      transform: translateX(10%);
+    }
+    .layout-table .marker.only {
+      left: 50%;
+      transform: translateX(-50%);
     }
     .layout-entrance {
       text-align: center;
@@ -504,24 +523,25 @@
 
     @media (max-width: 480px) {
       .header-logo { max-width: 260px; }
+      .round-badge { font-size: 0.95rem; padding: 0.35rem 1rem; }
       .search-box { padding: 1rem; }
       .round-section { padding: 0.8rem; }
       .name-table { font-size: 0.78rem; }
       .name-table th, .name-table td { padding: 0.35rem 0.4rem; }
-      .layout-table { font-size: 0.55rem; min-width: 24px; }
-      .layout-table .marker { width: 12px; height: 12px; }
-      .layout-table .marker.round1 { top: -6px; left: -4px; }
-      .layout-table .marker.round2 { top: -6px; right: -4px; }
+      .layout-section { padding: 0 0.3rem; }
+      .layout-grid { gap: 4px 2px; padding: 10px 3px 4px; min-width: 280px; }
+      .layout-stage { font-size: 0.7rem; min-width: 20px; padding: 0.3rem 0.2rem; }
+      .layout-table { font-size: 0.5rem; min-width: 22px; padding: 0.2rem 0.1rem; }
+      .layout-table .marker { width: 14px; height: 14px; }
+      .layout-table .marker.round1,
+      .layout-table .marker.round2 { top: -8px; }
     }
   </style>
 </head>
 <body>
   <div class="header">
     <img src="リベシティ大交流会2026福岡（ミニフェス）_2段.png" alt="リベシティ大交流会 2026 福岡（ミニフェス）" class="header-logo">
-    <div class="round-badge">
-      <img src="リベシティ大交流会2026福岡_1回目.png" alt="1回目">
-      1回目 座席検索
-    </div>
+    <div class="round-badge">1回目 座席検索</div>
   </div>
 
   <div class="description-bar">はじめは、【グループ①】の席に座ってください</div>
@@ -802,8 +822,11 @@
     }
 
     function updateLayoutMarkers() {
-      // 既存のマーカーを全削除
+      // 既存のマーカーとハイライトを全削除
       document.querySelectorAll('.layout-table .marker').forEach(el => el.remove());
+      document.querySelectorAll('.layout-table.highlighted').forEach(el => {
+        el.classList.remove('highlighted', 'hl-round1', 'hl-round2', 'hl-both');
+      });
 
       const legend = document.getElementById('layoutLegend');
 
@@ -813,22 +836,44 @@
       }
 
       legend.style.display = 'flex';
+      const sameTable = highlightTable1 && highlightTable2 && highlightTable1 === highlightTable2;
 
-      if (highlightTable1) {
+      if (sameTable) {
+        // 両グループ同じテーブル
         const el = document.getElementById('layout-' + highlightTable1);
         if (el) {
+          el.classList.add('highlighted', 'hl-both');
           const m = document.createElement('div');
-          m.className = 'marker round1';
+          m.className = 'marker round1 only';
           el.appendChild(m);
+          const m2 = document.createElement('div');
+          m2.className = 'marker round2 only';
+          m2.style.top = '-10px';
+          m2.style.left = '50%';
+          m2.style.transform = 'translateX(-50%)';
+          m2.style.top = '50%';
+          el.appendChild(m2);
           el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
-      }
-      if (highlightTable2) {
-        const el = document.getElementById('layout-' + highlightTable2);
-        if (el) {
-          const m = document.createElement('div');
-          m.className = 'marker round2';
-          el.appendChild(m);
+      } else {
+        if (highlightTable1) {
+          const el = document.getElementById('layout-' + highlightTable1);
+          if (el) {
+            el.classList.add('highlighted', 'hl-round1');
+            const m = document.createElement('div');
+            m.className = 'marker round1 only';
+            el.appendChild(m);
+            el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+          }
+        }
+        if (highlightTable2) {
+          const el = document.getElementById('layout-' + highlightTable2);
+          if (el) {
+            el.classList.add('highlighted', 'hl-round2');
+            const m = document.createElement('div');
+            m.className = 'marker round2 only';
+            el.appendChild(m);
+          }
         }
       }
     }
