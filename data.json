@@ -1,6 +1,6 @@
 {
   "description": "・はじめは、【グループ①】の席に座ってください\n・グループメンバーは、シート２、シート３で確認できます\n・テーブルレイアウト図は、シート４で拡大表示できます",
-  "updatedAt": "2026-04-07 18:14",
+  "updatedAt": "2026-04-07 18:20",
   "warnings": [],
   "data": [
     {
@@ -3896,14 +3896,6 @@
       "url": "https://libecity.com/user_profile/cF4wJdUG1nXFyyF3A5i7fWJhVVt1",
       "table1": "C-12",
       "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
-    },
-    {
-      "name": "おいね",
-      "url": "https://libecity.com/user_profile/EDzcArwRPRScFahva0QMtcku31f2",
-      "table1": "E-6",
-      "serial1": "A-8",
       "table2": "",
       "serial2": ""
     },
