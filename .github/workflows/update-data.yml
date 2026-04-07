@@ -1,0 +1,87 @@
+name: スプレッドシートからデータ更新
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: スプレッドシートからCSV取得してJSONに変換
+        run: |
+          SPREADSHEET_ID="1xbQq_tO4zwVLgq5dcz65zrDxc5RWSfzs1wBJO3lEiYQ"
+          GID="1790222964"
+          CSV_URL="https://docs.google.com/spreadsheets/d/${SPREADSHEET_ID}/export?format=csv&gid=${GID}"
+
+          curl -L -o data.csv "${CSV_URL}"
+
+          python3 << 'PYTHON'
+          import csv, json, sys
+
+          with open("data.csv", "r", encoding="utf-8") as f:
+              reader = list(csv.reader(f))
+
+          description = ""
+          if len(reader) > 1:
+              description = reader[1][0].strip() if reader[1] else ""
+
+          data = []
+          header_found = False
+          for row in reader:
+              if not header_found:
+                  if row and row[0].strip() == "リベシティ名":
+                      header_found = True
+                  continue
+              name = row[0].strip() if len(row) > 0 else ""
+              if not name:
+                  continue
+              entry = {
+                  "name": name,
+                  "url": row[1].strip() if len(row) > 1 else "",
+                  "table1": row[2].strip() if len(row) > 2 else "",
+                  "serial1": row[3].strip() if len(row) > 3 else "",
+                  "table2": row[4].strip() if len(row) > 4 else "",
+                  "serial2": row[5].strip() if len(row) > 5 else ""
+              }
+              data.append(entry)
+
+          result = {
+              "description": description,
+              "updatedAt": "",
+              "data": data
+          }
+
+          with open("data.json", "w", encoding="utf-8") as f:
+              json.dump(result, f, ensure_ascii=False, indent=2)
+
+          print(f"変換完了: {len(data)}件")
+          PYTHON
+
+      - name: 更新日時をJSONに記録
+        run: |
+          python3 -c "
+          import json
+          from datetime import datetime, timezone, timedelta
+          jst = timezone(timedelta(hours=9))
+          now = datetime.now(jst).strftime('%Y-%m-%d %H:%M')
+          with open('data.json', 'r', encoding='utf-8') as f:
+              d = json.load(f)
+          d['updatedAt'] = now
+          with open('data.json', 'w', encoding='utf-8') as f:
+              json.dump(d, f, ensure_ascii=False, indent=2)
+          print(f'更新日時: {now}')
+          "
+
+      - name: 変更があればコミット＆プッシュ
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data.json
+          git diff --cached --quiet && echo "変更なし" && exit 0
+          git commit -m "データ更新: $(date '+%Y-%m-%d %H:%M' -d '+9 hours')"
+          git push
