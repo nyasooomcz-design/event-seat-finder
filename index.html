@@ -42,6 +42,24 @@
       opacity: 0.9;
     }
 
+    /* 開催回バッジ */
+    .round-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #478e21;
+      color: #fff;
+      padding: 0.5rem 1.2rem;
+      border-radius: 40px;
+      font-size: 1.1rem;
+      font-weight: 700;
+      margin-top: 0.6rem;
+    }
+    .round-badge img {
+      height: 28px;
+      width: auto;
+    }
+
     /* 説明書き */
     .description-bar {
       background: #fff;
@@ -500,10 +518,13 @@
 <body>
   <div class="header">
     <img src="リベシティ大交流会2026福岡（ミニフェス）_2段.png" alt="リベシティ大交流会 2026 福岡（ミニフェス）" class="header-logo">
-    <p>座席検索</p>
+    <div class="round-badge">
+      <img src="リベシティ大交流会2026福岡_1回目.png" alt="1回目">
+      1回目 座席検索
+    </div>
   </div>
 
-  <div class="description-bar" id="descriptionBar" style="display:none;"></div>
+  <div class="description-bar">はじめは、【グループ①】の席に座ってください</div>
 
   <div class="search-container">
     <div class="search-box">
@@ -599,13 +620,6 @@
 
         const json = await res.json();
 
-        // 説明書きを表示
-        if (json.description) {
-          const descBar = document.getElementById('descriptionBar');
-          descBar.textContent = json.description;
-          descBar.style.display = '';
-        }
-
         // 更新日時を表示
         if (json.updatedAt) {
           document.getElementById('updateTime').textContent = '最終更新: ' + json.updatedAt;
@@ -643,12 +657,15 @@
       }
     }
 
+    const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/1xbQq_tO4zwVLgq5dcz65zrDxc5RWSfzs1wBJO3lEiYQ/edit?gid=1790222964#gid=1790222964';
+
     function showError(title, message) {
       const results = document.getElementById('results');
       results.innerHTML = `
         <div class="error-box">
           <div class="error-title">${escapeHTML(title)}</div>
           <div class="error-message">${escapeHTML(message).replace(/\n/g, '<br>')}</div>
+          <a href="${SPREADSHEET_URL}" target="_blank" rel="noopener" style="display:inline-block; margin-top:0.8rem; color:#de1b65; font-size:0.85rem;">スプレッドシートで直接確認する →</a>
         </div>`;
     }
 
