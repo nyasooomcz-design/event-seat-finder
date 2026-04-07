@@ -1,3951 +1,2965 @@
 {
   "description": "・はじめは、【グループ①】の席に座ってください\n・グループメンバーは、シート２、シート３で確認できます\n・テーブルレイアウト図は、シート４で拡大表示できます",
-  "updatedAt": "2026-04-07 18:26",
+  "updatedAt": "2026-04-07 18:36",
   "warnings": [],
   "data": [
     {
       "name": "∞",
       "url": "https://libecity.com/user_profile/uLfLne1Kjoh6D7romz27VFu3awx1",
       "table1": "A-3",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "２３号（ふみ）＠絵本作ってます🌈",
       "url": "https://libecity.com/user_profile/rg2FAgma2Lg5ur0Zf1oN8k3udit2",
       "table1": "C-7",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "ari✨断捨離の先に幸せな家庭あります",
       "url": "https://libecity.com/user_profile/6lZ2ntMd3ZQsHB75TyvRL9O4isq2",
       "table1": "B-5",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "Bora太郎＠貯める力アップ中",
       "url": "https://libecity.com/user_profile/sgjR8nuTOXeDmlSwGxxOGxI99Lv2",
       "table1": "D-1",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "boston@オンラインビジネス英会話",
       "url": "https://libecity.com/user_profile/A7BXu3BoNShYzLMgyAXniuPEZqu2",
       "table1": "E-9",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "Drインディ@医師と獣医師の二刀流",
       "url": "https://libecity.com/user_profile/jN151FT1A3U1pBOnZvRDGhoXwvM2",
       "table1": "A-12",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "egao",
       "url": "https://libecity.com/user_profile/WTlPAKk40nPkQlzEZLUrqOSBNlr2",
       "table1": "C-2",
-      "serial1": "D-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-10"
     },
     {
       "name": "fanta",
       "url": "https://libecity.com/user_profile/sPArWtNZ3mUa6kopThHts2MNFtF2",
       "table1": "B-8",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "hana",
       "url": "https://libecity.com/user_profile/iP9vwe3LkcdzmftbUysgfQd95Nx1",
       "table1": "D-6",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "hashi",
       "url": "https://libecity.com/user_profile/H8RcCOzEY7gc15li82eNjXdhSOn1",
       "table1": "E-5",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "Hero",
       "url": "https://libecity.com/user_profile/mhLwBJLPQ1hb2KGvnEqTI1eGqDO2",
       "table1": "A-4",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "Hisashi @AI×BGMに挑戦",
       "url": "https://libecity.com/user_profile/ZPvtdD0X7bdHxIPyxRp5JU4V93V2",
       "table1": "C-11",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "FPゆりママ＠支出管理表×家計サポート",
       "url": "https://libecity.com/user_profile/DA7stpOTbjMHhj4BOsX9bejFo8c2",
       "table1": "B-1",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "iiko@ブログ/高配当株勉強中",
       "url": "https://libecity.com/user_profile/j7cbDEmwHNNp7Yj3G0fbfasW49t2",
       "table1": "D-9",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "jyomaku",
       "url": "https://libecity.com/user_profile/wQkaHk6hxXZAxnVJvhFBOhFydgT2",
       "table1": "E-6",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "kaco",
       "url": "https://libecity.com/user_profile/Sr8c5L0eGRb0f9fZq6e8fJEQKs42",
       "table1": "A-7",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "kanae＠ブログ月収1万円挑戦中",
       "url": "https://libecity.com/user_profile/hsLWDMEvgRUvcEDPggF0IEdqzU02",
       "table1": "C-5",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "kiki",
       "url": "https://libecity.com/user_profile/Lf0KTINSnpRS30n1FPNGswRqhLC3",
       "table1": "B-3",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "Kpen（けーぺん）@高配当株",
       "url": "https://libecity.com/user_profile/ishTrRPGMFMfVKOth6JTDnKMdqz2",
       "table1": "D-12",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "Lucaルカ@刺繍ハンドメイド",
       "url": "https://libecity.com/user_profile/esLCRPkyYnfGYkFGW7HLG4twF1i1",
       "table1": "E-8",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "Ludan",
       "url": "https://libecity.com/user_profile/TYlR9aFcrXbeokIVfcrxUvU8Dmk2",
       "table1": "A-6",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "Mari@今年は学ぶ年＆気軽にチャレンジ",
       "url": "https://libecity.com/user_profile/W5fwYjP1hUYUcBbIzZ6l4NPhBZd2",
       "table1": "C-9",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "MASA",
       "url": "https://libecity.com/user_profile/nfcZbq8e8BOzDAzWvsvqWILzZZD3",
       "table1": "B-11",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "matsuげん",
       "url": "https://libecity.com/user_profile/wHraSYLSbUhLX2OwwJT7I289g7o1",
       "table1": "D-4",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "meguo",
       "url": "https://libecity.com/user_profile/VDZrSlFC0TdhYsm7oehCTYRbi4C3",
       "table1": "E-10",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "mocoさん",
       "url": "https://libecity.com/user_profile/vSNesR9IMvbzlc5dovEjlVIfE9p1",
       "table1": "A-2",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "momomaro",
       "url": "https://libecity.com/user_profile/BvMWK9QQiGXRiMUheLxbOey4aHk2",
       "table1": "C-6",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "MY＠化粧品関連企業の研究員",
       "url": "https://libecity.com/user_profile/lZCpYSjfvhbYOFfneW5W4GoyEdo2",
       "table1": "B-7",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "NAO＠Ae映像制作",
       "url": "https://libecity.com/user_profile/GAlcQYUSXuMwHRecpEh6uk1LqRX2",
       "table1": "D-8",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "naoto@ITエンジニア",
       "url": "https://libecity.com/user_profile/mCsLmZl7qzMyc06H5nuhNPe4tda2",
       "table1": "E-3",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "NORA@データ分析",
       "url": "https://libecity.com/user_profile/hLsZnevBGXU7yMiRxdvsf7iHsH63",
       "table1": "A-9",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "noro",
       "url": "https://libecity.com/user_profile/XlLudoFehfRfa3YqmZVS90wfgfh2",
       "table1": "C-10",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "NY",
       "url": "https://libecity.com/user_profile/Aa5ZRd5LpeMg3vaZuIJl7oFHos02",
       "table1": "B-12",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "peach",
       "url": "https://libecity.com/user_profile/ksDyN13F3ZRVJNikEHLZd6Jjux83",
       "table1": "D-2",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "ponta@家計見直し中",
       "url": "https://libecity.com/user_profile/vp1M82dXJNOJcZGuaVzyXYtH1cc2",
       "table1": "E-7",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "RAI@宿題リスト＆ハンドメイド挑戦中",
       "url": "https://libecity.com/user_profile/X9e4GHE344V6HrlMGZtsbEL9Goa2",
       "table1": "A-5",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "Ree@優しく採血",
       "url": "https://libecity.com/user_profile/3SJnWIeznXPVX0X3o2kp1Sqhg583",
       "table1": "C-3",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "★Rika★",
       "url": "https://libecity.com/user_profile/skSTSQ9Gc8e0BDUaRPF0KQG0I7c2",
       "table1": "B-4",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "Romi@ｷｬﾘｱの道のりは幸せへ続く",
       "url": "https://libecity.com/user_profile/KS4FdRB4h3YDm6ryQUVRlN8Jhn03",
       "table1": "D-11",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "Ryoko",
       "url": "https://libecity.com/user_profile/T5DB0B0WOeOjMkcmcNXHOnkxZFh2",
       "table1": "E-1",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "shosei",
       "url": "https://libecity.com/user_profile/RlY7EXe3gMVKfeyuQmvLj9tIj9u2",
       "table1": "A-8",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "smile",
       "url": "https://libecity.com/user_profile/Sbi7v0rcB2PDrze7fpWO45xF8DS2",
       "table1": "C-4",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "sui",
       "url": "https://libecity.com/user_profile/ojPeQFDhoiOdkl0tlQbRIKE3dHb2",
       "table1": "B-2",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "Sunny@手づくりエプロン屋",
       "url": "https://libecity.com/user_profile/GxSgzFWEIFbGK89FY5yUAfZtrOn1",
       "table1": "D-7",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "suzuyo＠Youtube",
       "url": "https://libecity.com/user_profile/rMQrDpKj9IhoGFpptxBUXpu4Uql2",
       "table1": "E-11",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "T_でろりめん＠スプシで問題解決",
       "url": "https://libecity.com/user_profile/tmTCRYgsYvdC0qbsVzmJPVWa45U2",
       "table1": "A-10",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "teeeeen＠中古アパレルせどり初心者",
       "url": "https://libecity.com/user_profile/Oo2T23qdOLPXIzt2gZWhWznLh9u1",
       "table1": "C-1",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "tomitomi@訪問診療のレセみれます",
       "url": "https://libecity.com/user_profile/2BjaHYlK0KW01XEirY9HnQZQ3A93",
       "table1": "B-9",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "Tommy@幸せな小金持ちCOO",
       "url": "https://libecity.com/user_profile/LpOdihh0RXVxEHXLUmpOKdXQvjH3",
       "table1": "D-5",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "UT@ドラマー/エンジニア/兼業農家",
       "url": "https://libecity.com/user_profile/FVU3zLCEM6gbc6uBwITgyVA5be52",
       "table1": "E-4",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "yoyo@結果第一。",
       "url": "https://libecity.com/user_profile/zp2b1de8qPbwdKI5sleMszK9Pox2",
       "table1": "A-11",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "Yusuke@Webライター×英語ブログ",
       "url": "https://libecity.com/user_profile/p9OumUUnuFMRWKaB20wRWD8vthA2",
       "table1": "C-8",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "あｰちゃん88@資格試験頑張る💪",
       "url": "https://libecity.com/user_profile/kHNSYelfKSPdOSKT2beCKOzDLCs1",
       "table1": "B-6",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "あーり🐯高配当株×YouTube🔰",
       "url": "https://libecity.com/user_profile/cNJX8ANqZHPD8dTJVSuPewQD6Xb2",
       "table1": "D-3",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "あおい",
       "url": "https://libecity.com/user_profile/rh8G4HsUuDYhrDJPJO27TuxZwBB2",
       "table1": "E-12",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "あかる@WEB勉強中・潜在意識セラピスト",
       "url": "https://libecity.com/user_profile/GzgdkBD1cQQYvgFgxZz48HjWT7n2",
       "table1": "A-1",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "あき＠英語勉強中",
       "url": "https://libecity.com/user_profile/9qOsVQ8qUnNxZvBZKGaC6Mermi83",
       "table1": "C-12",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "あきら@中国輸入せどり",
       "url": "https://libecity.com/user_profile/uMYgYCbj0rS2lcZN7jCTJKs3Ptl1",
       "table1": "B-10",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "アクアビット@高配当株×健康管理",
       "url": "https://libecity.com/user_profile/L9nezqmRE6SBS34QnzN1ssJ05Mf1",
       "table1": "D-10",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "あこちん@ステンドグラス",
       "url": "https://libecity.com/user_profile/Rj9n1EavCZX4LKHTmf1s9GyamvX2",
       "table1": "E-2",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "あさこ【WEBデザイナー】",
       "url": "https://libecity.com/user_profile/SBOj6ymAdGbgT644Ed27rH8P9d32",
       "table1": "A-6",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "あさよ@夫はタイ人🇹🇭星読み師💫",
       "url": "https://libecity.com/user_profile/XZG6f4miCuVhzzxvWZkgpyPReSc2",
       "table1": "C-7",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "あっこ＠Rawスイーツ作る人",
       "url": "https://libecity.com/user_profile/vO1eyTigQtaw4nEpJWA1PKvGQwU2",
       "table1": "B-5",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "アップルスヌーピー@夫婦せどり×刺繍",
       "url": "https://libecity.com/user_profile/rF3yrwco4pcqCQa3LiAHKkm6hui2",
       "table1": "D-1",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "アデミーロ　ペンギン",
       "url": "https://libecity.com/user_profile/U8jiMDeN1QcYe8BHlDw9KTTO3RA2",
       "table1": "E-9",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "あぴ＠転職インスタ",
       "url": "https://libecity.com/user_profile/CyuPXqzIuPg8II6PQssf3QWqbgO2",
       "table1": "A-12",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "アフィリブログに悩むマル",
       "url": "https://libecity.com/user_profile/heEuf79dPLQOVhFMftsTgnfPb5J3",
       "table1": "C-2",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "あべじ@縫い物精進中",
       "url": "https://libecity.com/user_profile/vcLmrrABzoVlbhEuoE7J7vT93Ar1",
       "table1": "B-8",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "あみーご",
       "url": "https://libecity.com/user_profile/9LhsvL9TicVyZC6lI6ID7JPGadk1",
       "table1": "D-6",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "あみけ@ブログ集中",
       "url": "https://libecity.com/user_profile/odgVYfcZg8NFaAn2Xrvac9fQzXZ2",
       "table1": "E-5",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "あや",
       "url": "https://libecity.com/user_profile/73wCfjiB5mPOXE4bIFHxj08Ep5z2",
       "table1": "A-4",
-      "serial1": "D-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-10"
     },
     {
       "name": "あや＠せどり勉強中",
       "url": "https://libecity.com/user_profile/Yziv4fgoUyR67Ys2vIW3iZPR7x82",
       "table1": "C-11",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "あや＠ピラティス勉強中",
       "url": "https://libecity.com/user_profile/AGxHDoqKjWYXVj0KjelDsMFzgX43",
       "table1": "B-1",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "あややママ＠5人年子の子育て中",
       "url": "https://libecity.com/user_profile/HkrQS51njKaf2969EyhmdRS0Nn52",
       "table1": "D-9",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "あゆっこ@暮らし整え中☘️",
       "url": "https://libecity.com/user_profile/ru1LH8U1zoc0fYG3RYBpNT3KWiZ2",
       "table1": "E-6",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "あらたぬ@EC 委託販売 鍼灸卸販売",
       "url": "https://libecity.com/user_profile/VvR1iPKFshNET7jy4MDrsceaDi03",
       "table1": "A-7",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "ありこ@陶芸と着物の人になる",
       "url": "https://libecity.com/user_profile/fURc2S7OymbAn3k9LijWv5bGm6p2",
       "table1": "C-5",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "ある@宿題　増やす力　取組中",
       "url": "https://libecity.com/user_profile/n1GGrydKp2ZGjrjnsPhSK9pLSNh2",
       "table1": "B-3",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "アワジー@2026は副業0→1達成目標",
       "url": "https://libecity.com/user_profile/JzJJ9SgovBMHOJMbzM13nMoRnLO2",
       "table1": "D-12",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "あんころ　ブログ挑戦中",
       "url": "https://libecity.com/user_profile/Zg7Q0M8bKmVu5QHJFhYRyJlro7b2",
       "table1": "E-8",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "あんみ🌸歯科ライター🦷ネイル💅",
       "url": "https://libecity.com/user_profile/DnGzcqIZPTXbvL0EQBaWwyMXyOK2",
       "table1": "A-6",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "イーエムベーカリー @贅沢スコーンサンド",
       "url": "https://libecity.com/user_profile/jg3wgbIP08PijuSXoPkM5BQTghE3",
       "table1": "C-9",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "いかやき",
       "url": "https://libecity.com/user_profile/ZXjTVYitzMZ09AT6j9hTH189eKW2",
       "table1": "B-11",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "いざかや",
       "url": "https://libecity.com/user_profile/j2rSjpJnnIgx0f9f9kuBO5efgUB2",
       "table1": "D-4",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "いっくん@米国株投資×ブログ挑戦中",
       "url": "https://libecity.com/user_profile/Fl93CleAwiXDTWlRdeBBX6taoko1",
       "table1": "E-10",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "いと",
       "url": "https://libecity.com/user_profile/5ZwsiDGNDwSxy0LTwCksRCAXSyt1",
       "table1": "A-2",
-      "serial1": "B-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-8"
     },
     {
       "name": "イト@LINE構築勉強中",
       "url": "https://libecity.com/user_profile/WVC7ebmTohdjt3gobMhwCLmsg4b2",
       "table1": "C-6",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "いまみ　＠転職活動・副業",
       "url": "https://libecity.com/user_profile/8rasJ1K3CbWZnJG3XYpmdQMNyVn2",
       "table1": "B-7",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "いるみん@小さな副業トライ中",
       "url": "https://libecity.com/user_profile/fcFmDGgm3Xg48sz1TKwGkwZ6sF53",
       "table1": "D-8",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "いわぞう@学童の先生・AI×BGM挑戦中",
       "url": "https://libecity.com/user_profile/0uL7ZD9T5ecmuam9045IrHGfGNI2",
       "table1": "E-3",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "うえとも",
       "url": "https://libecity.com/user_profile/HsPMzMLUZHanc0fK7sRHg53ckMx2",
       "table1": "A-9",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "ウサberry@副業社労士/記帳代行",
       "url": "https://libecity.com/user_profile/ZE1JTSxzPtP6zEbOpZzGHzALc5j2",
       "table1": "C-10",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "うさおまる@ITスキルアップ中💻",
       "url": "https://libecity.com/user_profile/3fu23fkDCmgIPRAKwwH8OIUPmqI2",
       "table1": "B-12",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "うさこ@転職活動成功しました！",
       "url": "https://libecity.com/user_profile/gnF8AEqzCvM7RljHEceImofnF9n1",
       "table1": "D-2",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "ウニ",
       "url": "https://libecity.com/user_profile/vDlyXGvq3YdclI3JSvN5tXrCdb32",
       "table1": "E-7",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "うにゃ＠ブログ挑戦",
       "url": "https://libecity.com/user_profile/ZuN8kZNU8CgZBEO1XKhKqDAzeTi1",
       "table1": "A-5",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "えいちゃん",
       "url": "https://libecity.com/user_profile/ukYkamiBiwZ5vy1WDCkjmYK7Bth2",
       "table1": "C-3",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "えっちゃん",
       "url": "https://libecity.com/user_profile/PmF5BTkrArUAT8ELTVs177UgCUa2",
       "table1": "B-4",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "エリ＠ヴィンテージ輸入",
       "url": "https://libecity.com/user_profile/xfji8N1Ol3VVsv7u2avLjj1jWLQ2",
       "table1": "D-11",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "えりぷぅ@いろいろがんばり中",
       "url": "https://libecity.com/user_profile/VU0fUKdBSqeJLIT5Fpjwu7gX1jX2",
       "table1": "E-1",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "えりりん",
       "url": "https://libecity.com/user_profile/kKKuz8sac5YaBuvTGZ9ZNnNk42q2",
       "table1": "A-8",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "えるの@Ae映像制作🔰",
       "url": "https://libecity.com/user_profile/1V0EATxB4PUR3gRwlihZWICyrLP2",
       "table1": "C-4",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "えるもも",
       "url": "https://libecity.com/user_profile/84UK8pCBQ7Xa7vtcarUOXJOhRlH3",
       "table1": "B-2",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "エレファントもしもし",
       "url": "https://libecity.com/user_profile/P9r829w8Z0gbJTffKsKbdGQ2J5q1",
       "table1": "D-7",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "えんじゅ@薬剤師/youtube挑戦中",
       "url": "https://libecity.com/user_profile/5ZkHnivzqgWruKfryfp8JFD9ZME3",
       "table1": "E-11",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "お し ま る@株式投資",
       "url": "https://libecity.com/user_profile/iqunz45j3RUL4KuqkjBfnPEtfrJ3",
       "table1": "A-10",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "オカケン@鍼灸理学トレーナー/鰹BAR",
       "url": "https://libecity.com/user_profile/Utef6KOqbAf75XLlQlLmdsRma6D3",
       "table1": "C-1",
-      "serial1": "B-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-8"
     },
     {
       "name": "おかん",
       "url": "https://libecity.com/user_profile/wLaDxY3rdWWaWpuSHZWsF4FlRLt1",
       "table1": "B-9",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "オクラ",
       "url": "https://libecity.com/user_profile/HvXpctWs0YWrtczXNhKsAMr3GfG3",
       "table1": "D-5",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "おこち",
       "url": "https://libecity.com/user_profile/9plUtxwRnmacbk9evciUtNqa7Kq2",
       "table1": "E-4",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "おさむ@作図特化の建築士",
       "url": "https://libecity.com/user_profile/Bra1C2XI23aRIQNjRbyDgvoKSen2",
       "table1": "A-11",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "おざやん@セミリタイアを目指す",
       "url": "https://libecity.com/user_profile/x91dutLyvbZxlwLLzmd0LtyUHaA2",
       "table1": "C-8",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "おじょう@ハンドメイド・LINE構築",
       "url": "https://libecity.com/user_profile/PnafFvzzMBU6bVObgDwpLmu2fgl2",
       "table1": "B-6",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "おっちゃん",
       "url": "https://libecity.com/user_profile/Sv2PnU3Q41NDA65TX0fsQY55xun2",
       "table1": "D-3",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "おにまるさんぽ",
       "url": "https://libecity.com/user_profile/c7M65EbAQaWk7Q8g5niPMZpoRKw1",
       "table1": "E-12",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "おふろすきー@料理系Youtube挑戦中",
       "url": "https://libecity.com/user_profile/FgTNHA4gHAZNPjCthFOdbZpEWU52",
       "table1": "A-1",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "おも@骨マネ✖ライター",
       "url": "https://libecity.com/user_profile/PGP9JJ1SnQYVVTNKLnlR7muvA9T2",
       "table1": "C-12",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "おやゆび",
       "url": "https://libecity.com/user_profile/9pGZHkmJN9gLPVyk5ENKeifOdiu2",
       "table1": "B-10",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "おゆ♨︎@ハンドメイド✨",
       "url": "https://libecity.com/user_profile/gp2fHpL0jnhC7ebtEJTjqNG9v5w2",
       "table1": "D-10",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "お田中さん@訪看ママナース✕ブロガー",
       "url": "https://libecity.com/user_profile/Ci6PK7tIFjPtkIAJFANuVQFIJ1t2",
       "table1": "E-2",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "カイねこ＠クラウドエンジニア(AWS)",
       "url": "https://libecity.com/user_profile/axNMl8VbiecMg0gNxyI0xLqV1sE2",
       "table1": "A-6",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "カオナシ@noteで幸せに✨",
       "url": "https://libecity.com/user_profile/hFAWiB5p4RWuVmxMiudTAMZJPov2",
       "table1": "C-7",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "かず＠オンライン秘書挑戦💪",
       "url": "https://libecity.com/user_profile/GS2Kau1kmMTJzRd1E3ld4xH0cd33",
       "table1": "B-5",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "かずまる🙆‍♂️っとゆるAI@元かず",
       "url": "https://libecity.com/user_profile/0nZQNd0HCegjF11Hs1KKyHU0qDV2",
       "table1": "D-1",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "かっちゃん",
       "url": "https://libecity.com/user_profile/QXrgmk98srWvmWjaDADel23vZ4k2",
       "table1": "E-9",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "カッピーマム",
       "url": "https://libecity.com/user_profile/QgAUfbNanffMnBemSQINJwlzVLy1",
       "table1": "A-12",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "かなち@made in china",
       "url": "https://libecity.com/user_profile/T5FpOTDLBugV2VsE3QqNru3aNJZ2",
       "table1": "C-2",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "カビラ@LINE構築",
       "url": "https://libecity.com/user_profile/A1Tfax5XvLfJ27zhcepcvN5r3or2",
       "table1": "B-8",
-      "serial1": "E-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-10"
     },
     {
       "name": "かぼちゃん🎃子どものおもちゃ作り",
       "url": "https://libecity.com/user_profile/ReNF85uzYSctj8qS6GfKPDrqEhB2",
       "table1": "D-6",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "かよよ＠メルカリ/大家",
       "url": "https://libecity.com/user_profile/hZOe7IMyRtgwuTfruJNvAIH1KGx2",
       "table1": "E-5",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "かりかりおこげ@転職活動中",
       "url": "https://libecity.com/user_profile/8MCN5uRSRQO1NsleLl7fby6uuEV2",
       "table1": "A-4",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "カルンジ@特別費を貯めています",
       "url": "https://libecity.com/user_profile/ayxMom5ceJMvkkOf6CooYHLKNfV2",
       "table1": "C-11",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "かん@建築関係",
       "url": "https://libecity.com/user_profile/8Re7EgXxRhRsV0TE3yH7XUdJ2OT2",
       "table1": "B-1",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "ガンバ太郎",
       "url": "https://libecity.com/user_profile/Go9Kevk9nTUKRsMxHJULKKHaPvl1",
       "table1": "D-9",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "きーはる＠超特急推しブログ",
       "url": "https://libecity.com/user_profile/y3f5yN0uKeZWfGQyEGCWLnXUB793",
       "table1": "E-6",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "キキ@ストックイラスト勉強中",
       "url": "https://libecity.com/user_profile/WZgq3gHgJSb97914rJqx3AMEAv73",
       "table1": "A-7",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "きさらぎ@お掃除・家事代行",
       "url": "https://libecity.com/user_profile/kAEDNGG8iFZqDmPVZmOM8YxjDqf1",
       "table1": "C-5",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "きさらぎ@ブログ挑戦/AI🤖4コマ投稿",
       "url": "https://libecity.com/user_profile/80Klx9kNDVgzugtkTVyGlUWSOtl1",
       "table1": "B-3",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "きつねうどん",
       "url": "https://libecity.com/user_profile/WDNoqHHJ06YLXOvt7iP3k6zLSdJ2",
       "table1": "D-12",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "きっぺー@タモ作りクリエイター",
       "url": "https://libecity.com/user_profile/gqML2zxJU3YcU9x4GRGHIf3SLPi2",
       "table1": "E-8",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "きなこ@宿題リストと価値観マップ！",
       "url": "https://libecity.com/user_profile/yUkOVj4kKJZCV9ReTA3QhtJeoFF2",
       "table1": "A-2",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "きのこ",
       "url": "https://libecity.com/user_profile/XNPk3ZZFhfhpZofSxIHPWzXYuHE2",
       "table1": "C-9",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "きぽん@プログラミングの副業やりたい",
       "url": "https://libecity.com/user_profile/u0NODHZXEPWNMwYAoy5KbChYZi92",
       "table1": "B-11",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "きみどり．",
       "url": "https://libecity.com/user_profile/eN1TkOaPLoW3Hn9CBHy7FpcPvPq2",
       "table1": "D-4",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "きむ",
       "url": "https://libecity.com/user_profile/r8rhYQOXH6YIcZfjWd0LNXf1Kjs1",
       "table1": "E-10",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "きゃな",
       "url": "https://libecity.com/user_profile/NgOCCyjMoPbDvBoHvt0VGXLxNSj2",
       "table1": "A-3",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "キャブコン",
       "url": "https://libecity.com/user_profile/NcFu1FM9qXSmjSk9L51sILFvlPh1",
       "table1": "C-6",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "きゅうり🥒@ハンドメイド",
       "url": "https://libecity.com/user_profile/PP4hNZGcBBRRG96Kxp9QeAkHkze2",
       "table1": "B-7",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "きよ@動画編集0→1挑戦中",
       "url": "https://libecity.com/user_profile/0l5inVU82TO0AuZkIogaPlo1e7g2",
       "table1": "D-8",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "きりん",
       "url": "https://libecity.com/user_profile/JfblL4mOKvVIs1nWhgA2PWMrvUB2",
       "table1": "E-3",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "キリンパパ@ブログ挑戦中/登山",
       "url": "https://libecity.com/user_profile/22f3Vl2y9UgY4poUKtH0lGeLUdt2",
       "table1": "A-9",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "くう",
       "url": "https://libecity.com/user_profile/pP41jONJQLen5O3gzgIhL51PsQq2",
       "table1": "C-10",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "くー",
       "url": "https://libecity.com/user_profile/UcWhcwTSRuObH7GqGLXayERYdiz2",
       "table1": "B-12",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "くおん",
       "url": "https://libecity.com/user_profile/4O9W5gUe6lcouPNZQ0ZfOxoHyHN2",
       "table1": "D-2",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "クギコ@本業にコミット✊",
       "url": "https://libecity.com/user_profile/dX60XxHgYveNqzgW5dDPPRdujXv1",
       "table1": "E-7",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "くすくす",
       "url": "https://libecity.com/user_profile/Tl3kcJ8jC5MHCzrqTrMKJpEq45h1",
       "table1": "A-5",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "くりこ",
       "url": "https://libecity.com/user_profile/LyUVYbAGSYV6i09x2JKfTJBO2sr2",
       "table1": "C-3",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "くるりん@ハンドメイド好き",
       "url": "https://libecity.com/user_profile/KqJjvDju2qRg2zATj8ZJr5MH3Cq1",
       "table1": "B-4",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "グレープスマイル@夫婦せどり",
       "url": "https://libecity.com/user_profile/kVH9Hiv9vFUd4bO7fUcoxvjsE852",
       "table1": "D-11",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "クレソン",
       "url": "https://libecity.com/user_profile/acI38dYazjbgPDkUmrOH7DHCeno1",
       "table1": "E-1",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "くろゆき",
       "url": "https://libecity.com/user_profile/wpfioLvqsRfxlX09PNwSo1f0Rlz2",
       "table1": "A-8",
-      "serial1": "D-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-10"
     },
     {
       "name": "けい@高配当株挑戦中",
       "url": "https://libecity.com/user_profile/KuWdfJesx5eCNCy0SwEkn98CPy52",
       "table1": "C-4",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "けいあお@高配当株/FP2級",
       "url": "https://libecity.com/user_profile/ihHBLIGe6MbQBQwJHweApdBrwm72",
       "table1": "B-2",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "けむんぽ",
       "url": "https://libecity.com/user_profile/5W3w1v4u6YXDRvlmLquickhg7mB3",
       "table1": "D-7",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "けん",
       "url": "https://libecity.com/user_profile/cc57gqkaqyU3H5V56sj7NiwCVoi1",
       "table1": "E-11",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "けんちり",
       "url": "https://libecity.com/user_profile/qRB1Enk9QETv5TXwt19KVns1Wx82",
       "table1": "A-10",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "ゴエ＠インスタ×メルカリ勉強中",
       "url": "https://libecity.com/user_profile/mV3kCZ7DxbOCR610Id9XHQWZx4i1",
       "table1": "C-1",
-      "serial1": "B-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-8"
     },
     {
       "name": "コーヒーまめこ@AI×BGM",
       "url": "https://libecity.com/user_profile/YtGNoQjRZAWuRn4fUMmUHrUkuq42",
       "table1": "B-9",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "ココナコ@こども英語x得意を活かす模索中",
       "url": "https://libecity.com/user_profile/xLr3CtHaaFQxI2vzhZ1Zr9PSs8a2",
       "table1": "D-5",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "こた",
       "url": "https://libecity.com/user_profile/zZiju7brZmOQD6Yrl3xCD1Av8GV2",
       "table1": "E-4",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "コツコツ",
       "url": "https://libecity.com/user_profile/HmuqKV5fJ5eDNeo31otHoKLTdIn1",
       "table1": "A-11",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "ゴト",
       "url": "https://libecity.com/user_profile/mZFy93BnCqRv8fb34h2tZ9cpwPR2",
       "table1": "C-8",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "こはく（旧:キョン）@動画編集初心者🔰",
       "url": "https://libecity.com/user_profile/WieD4vb7D9ZLhItZlSjBxAqdgyu1",
       "table1": "B-6",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "こはちゃん♡",
       "url": "https://libecity.com/user_profile/cN9ooVRbTTgz90sZZgNHCmrw4Fw2",
       "table1": "D-3",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "こはる",
       "url": "https://libecity.com/user_profile/6nPy1N3gmPgC3HewL7zLxK4xtnL2",
       "table1": "E-12",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "こよみ@新大阪の整体師",
       "url": "https://libecity.com/user_profile/u6r7cotA0URikKMzN3tZSwdHOjH3",
       "table1": "A-1",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "ごりらきつね@中国輸入ときどきebay",
       "url": "https://libecity.com/user_profile/Xh3EHy0RYSM0IKsnuotox0KiBQt2",
       "table1": "C-12",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "ころころ🐾",
       "url": "https://libecity.com/user_profile/U9Wy7G44pnbiaYNjGkgWQ68A9eV2",
       "table1": "B-10",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "こわみみ",
       "url": "https://libecity.com/user_profile/xftNkqQSVyX0aL8QKnl0mAcYgSA2",
       "table1": "D-10",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "こんちゃん@資産運用20年後の姿の一例",
       "url": "https://libecity.com/user_profile/DuzYxGafw8M73WKiRKeaqKRR4oO2",
       "table1": "E-2",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "さあ＠オン秘書・関西繊細さん交流会主催",
       "url": "https://libecity.com/user_profile/5CmpzhotEEUItbttx9vKivxq0te2",
       "table1": "A-6",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "さーむす（スペインカールのワニ）",
       "url": "https://libecity.com/user_profile/2zQMcMtaKKgvYyJtFKqtaKJAhFn2",
       "table1": "C-7",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "さかやん@高配当株/リベ活&推し活🎉",
       "url": "https://libecity.com/user_profile/NWBilgJcIgU9S8LcYg81iTS1i7z1",
       "table1": "B-5",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "さきっぽ@高配当株挑戦中",
       "url": "https://libecity.com/user_profile/gdp4nNLw2BWSNPTkyxsjJndAaCi2",
       "table1": "D-1",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "サク＠お絵描きインスタグラマー",
       "url": "https://libecity.com/user_profile/ueeBfMs7pYRG1VUyUSZoq6ANPyW2",
       "table1": "E-9",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "さくたん🌸",
       "url": "https://libecity.com/user_profile/OQE0L2lHioeyMVmaejurMljwPHn2",
       "table1": "A-12",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "さくらんぼ",
       "url": "https://libecity.com/user_profile/QHEyZhnCi5VyqrcffoBWL47sRwq2",
       "table1": "C-2",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "さくらんぼ谷🍒",
       "url": "https://libecity.com/user_profile/L7PkfRY6qCcKLw4liUbi8QYn8zN2",
       "table1": "B-8",
-      "serial1": "E-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-10"
     },
     {
       "name": "さこ@Web制作",
       "url": "https://libecity.com/user_profile/7W9vg6S8uObC2FhpsdBOda6gpUJ2",
       "table1": "D-6",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "ささ",
       "url": "https://libecity.com/user_profile/fogZ2wI1ZjggKqVc1bJGRGPEOkG3",
       "table1": "E-5",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "サッチー",
       "url": "https://libecity.com/user_profile/6NtcmZ3ZTlZxnpmyNsnAtG1H0nu2",
       "table1": "A-4",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "さとちゃん＠円満離婚カウンセラー",
       "url": "https://libecity.com/user_profile/jD1dJtTdkadirqvZYOSKf9yAcJk1",
       "table1": "C-11",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "サニー＠その場で体感！リンパケア",
       "url": "https://libecity.com/user_profile/2XgdED15smdHHWMHijrFUGXMio63",
       "table1": "B-1",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "さや",
       "url": "https://libecity.com/user_profile/xongPgEbdbhJ81tAZgR3cxeXxe53",
       "table1": "D-9",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "さら@マルシェ出店楽しかった～",
       "url": "https://libecity.com/user_profile/14IyZsYLffaQ7QWnc2I5MYqBeTw2",
       "table1": "E-6",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "さわとも＠滋賀の放射線技師ブランドせどり",
       "url": "https://libecity.com/user_profile/wzA7RdsH5OSNEyx8zv7TfAgAPeo2",
       "table1": "A-7",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "さんぎ@柔道整復師",
       "url": "https://libecity.com/user_profile/zA6zVB5cw0WLl8EmuyV2ZT70BYt2",
       "table1": "C-5",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "さんご@笑顔で幸せに生きられるnote",
       "url": "https://libecity.com/user_profile/xVl3OkimqMRATBwEh5Aoc4oHLzg2",
       "table1": "B-3",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "ジーニー@ハンドメイド壁面飾り",
       "url": "https://libecity.com/user_profile/uKGVanPnJUXS4XTpZk1ie2ArDyJ3",
       "table1": "D-12",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "シープる@動画編集始める",
       "url": "https://libecity.com/user_profile/8G0CtZSlmke5iIOMUb16T8k74Hs1",
       "table1": "E-8",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "シゲ",
       "url": "https://libecity.com/user_profile/KHp5NEgFN7YZbihOniQhCCFco0b2",
       "table1": "A-2",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "しげぴー＠プラモデラー",
       "url": "https://libecity.com/user_profile/P0cNffvB1cZxrIXM8DEXgXHs43R2",
       "table1": "C-6",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "しず@畑仕事×note",
       "url": "https://libecity.com/user_profile/e7vs5N2rGzXbOj6wnuY1NhO3QDh2",
       "table1": "D-3",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "しば",
       "url": "https://libecity.com/user_profile/s1M0jl5gmYfv6zFxW8jQgM2VCOo1",
       "table1": "B-9",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "しばしば@ロゴ/映像制作",
       "url": "https://libecity.com/user_profile/1ABBULburtbnvRxq5hjYntwjgTG2",
       "table1": "A-8",
-      "serial1": "D-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-10"
     },
     {
       "name": "しまーらいおん",
       "url": "https://libecity.com/user_profile/IcbOkOWJioRpxDxIYrZqhz9iqnx1",
       "table1": "E-7",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "しまでぃ@転職活動中",
       "url": "https://libecity.com/user_profile/hRl8h7RqRZPEmzOk6zAJP3V4BBd2",
       "table1": "C-1",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "ｼﾏﾌﾞｸﾛ",
       "url": "https://libecity.com/user_profile/SFfJ8FHlENZy7PYvNkmjDKRsLwo2",
       "table1": "D-12",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "しまりん@心を整える🌈",
       "url": "https://libecity.com/user_profile/e6VcRh2LPIXjtOov2YNvIous6hY2",
       "table1": "A-2",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "しゃけはらみ@動画配信挑戦中",
       "url": "https://libecity.com/user_profile/6VypLpHYUieomN0BP2Br83SFEt32",
       "table1": "B-6",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "じゃんぼ＠AI BGMチャンネル挑戦中",
       "url": "https://libecity.com/user_profile/6wba1pXVMoMEiW6eODczNOMXm782",
       "table1": "E-10",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "シュナプーのさとう@ブログ🔰",
       "url": "https://libecity.com/user_profile/hqQw8Wc3NKVDSXs6nyaIW5ntiDH3",
       "table1": "C-9",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "じゅの",
       "url": "https://libecity.com/user_profile/8CnhCAwFTgexWZPxG7GcpiftpXX2",
       "table1": "B-1",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "しゅんイズム@月2献血骨髄ドナー登録中",
       "url": "https://libecity.com/user_profile/uSP9K285EGMKMQstVwC0k8ftXXO2",
       "table1": "A-11",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "じゅんちゃん",
       "url": "https://libecity.com/user_profile/UF4OmkbqhNWSuCr2fk3jP07lX6l2",
       "table1": "D-5",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "じゅんまな@ ブランドせどり妻手伝公務員",
       "url": "https://libecity.com/user_profile/KkFhcsZnlKcsVSCCJJW8RNAKl5i1",
       "table1": "E-2",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "じゅんや@動画制作",
       "url": "https://libecity.com/user_profile/89EYkbaXy9cg6zBnGHp0rbocyMt2",
       "table1": "C-4",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "しょういち@ITエンジニア",
       "url": "https://libecity.com/user_profile/05WLvZeEFfWNCJZia4otYy3Bk0s2",
       "table1": "B-12",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "しんいちろう",
       "url": "https://libecity.com/user_profile/mQEEiWtrz0dRSiYLUt5IXw1Uijx2",
       "table1": "A-3",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "しんくのあさひ",
       "url": "https://libecity.com/user_profile/sxuKhZbXZmfkl91qMmEAwCwUHBn2",
       "table1": "D-7",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "しんちゃん",
       "url": "https://libecity.com/user_profile/XDLJN9wQPdS1VfG0YA8W7ZiDUCG2",
       "table1": "E-6",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "シンバ😊❣️",
       "url": "https://libecity.com/user_profile/qOD4tK1n2nUFq1XXbmrhOPEEUZh2",
       "table1": "C-10",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "しんや",
       "url": "https://libecity.com/user_profile/E4YVppu9VUNSJ5DZApVsx2R614j2",
       "table1": "B-5",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "すぎちゃん",
       "url": "https://libecity.com/user_profile/S8DMEXjizlZWv7LFylSIsiHHaC43",
       "table1": "A-12",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "すみぃ",
       "url": "https://libecity.com/user_profile/rlhtT06aaFP0uzdkZezdKLl1R1V2",
       "table1": "D-1",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "★せーご★もうすぐ４年生☺️",
       "url": "https://libecity.com/user_profile/donHpDIUKoX0JefdjQ9RpXalmLj1",
       "table1": "E-8",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "そうちゃん",
       "url": "https://libecity.com/user_profile/FciBJDeKHXMcyoIMlyWZ26Kk2tU2",
       "table1": "C-7",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "ゾーム",
       "url": "https://libecity.com/user_profile/e9Z1Eg2QxBe1ezLsqGcAv7dn55z1",
       "table1": "B-3",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "そよかぜ＠せどり勉強中",
       "url": "https://libecity.com/user_profile/3MxQVWMLifQwyrKg0OiYN0X92Bw2",
       "table1": "A-6",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "そらまめ",
       "url": "https://libecity.com/user_profile/byaiSPjbcdWOq3ZPcs0MG8yV8GN2",
       "table1": "D-8",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "たぁーパパ@YouTube挑戦中",
       "url": "https://libecity.com/user_profile/gLzbal433VYppeX52dvMEDyRGOF3",
       "table1": "E-4",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "ターシャ＠生きていることに感謝",
       "url": "https://libecity.com/user_profile/Ov7RobEJXVYzHrC2Xnii19wYczg1",
       "table1": "C-2",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "ダイチャン",
       "url": "https://libecity.com/user_profile/UvpHn9sIzFOhMVGxkGGZ48IBuRh2",
       "table1": "B-10",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "だいにとーあ@引退公務員",
       "url": "https://libecity.com/user_profile/YkH1KafjNoOBwJ924fcEKIM9wSx1",
       "table1": "A-9",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "タカタカ＠クレカ×証券口座ブログ",
       "url": "https://libecity.com/user_profile/pxsbxmUCwZQvXXm6pjD8jU9pl2A3",
       "table1": "D-6",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "たかな",
       "url": "https://libecity.com/user_profile/ntl92hPTUTPaaXyAzbV1bnKDNye2",
       "table1": "E-1",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "たかひろ",
       "url": "https://libecity.com/user_profile/ILaGrIAa1ISu29MBcIrmPt8uSXt2",
       "table1": "C-12",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "タク",
       "url": "https://libecity.com/user_profile/pzyzfAdlUXfGFAnbDhelnJn8SuF3",
       "table1": "B-7",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "たくま@記帳代行",
       "url": "https://libecity.com/user_profile/HeEdn3cvNtRmkWm2sTkqAjScR6g2",
       "table1": "A-4",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "たくみ @小さな車屋さん",
       "url": "https://libecity.com/user_profile/iGYQNvvUJAN6TrsOzziBHIztIQG3",
       "table1": "D-9",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "たっく＠居宅・ガイドヘルパー",
       "url": "https://libecity.com/user_profile/qLP07QSwakgm4GH1oQvhTulZ2aF3",
       "table1": "E-5",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "ダックスダックス@食費見直し中",
       "url": "https://libecity.com/user_profile/BCtjwlX4VObeUrxaUErJWq8G9Nm1",
       "table1": "C-8",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "たなかひで",
       "url": "https://libecity.com/user_profile/7kFAwcB9PRaQWN837flhRW4GmOO2",
       "table1": "B-2",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "タニ＠WEBエンジニア",
       "url": "https://libecity.com/user_profile/4vg2V2qNQIV04ZuRTVZOZvBpQIV2",
       "table1": "A-7",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "たにもん@ITエンジニア",
       "url": "https://libecity.com/user_profile/lvvtLbrDNNVIaZnzsQpC6pA1RIE3",
       "table1": "D-4",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "たぬきイチゴ",
       "url": "https://libecity.com/user_profile/IMyPZ8hnFfS8SL4uM7dAWHqXUR72",
       "table1": "E-11",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "たぬきち",
       "url": "https://libecity.com/user_profile/oV0DPrJ26Ufc0V4o7Wyq0nOH9br1",
       "table1": "C-3",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "『カッピーする看護師』カッチ",
       "url": "https://libecity.com/user_profile/ccn634Teq2eYQj3gwcBvW01njtX2",
       "table1": "B-8",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "たまさん@ブログ＆副業チャレンジ中🔥",
       "url": "https://libecity.com/user_profile/VTMOMi23lRQiXxu7Cz5RWPGoToq1",
       "table1": "A-10",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "たらこ",
       "url": "https://libecity.com/user_profile/GBopRpgCLdZ2mYEVmjUW2AeVdt72",
       "table1": "D-2",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "ちえ＠不用品販売から始める",
       "url": "https://libecity.com/user_profile/r7ZW3pKekpOum3mdWC1Mio4KrZN2",
       "table1": "E-9",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "ちえぞう＠税理士/記帳・税務相談",
       "url": "https://libecity.com/user_profile/6EcVYU2lHDcNzplEYn7VlRI8mai2",
       "table1": "C-5",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "ちえちゃん＠大阪北堀江の小顔サロン",
       "url": "https://libecity.com/user_profile/rJTIE8CPATZzuBlSfwWIW65LrPT2",
       "table1": "B-11",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "ちかっきー@副業挑戦&着物リメイク",
       "url": "https://libecity.com/user_profile/GqldK3PzoWMOV2Jc1isnwkqQirl2",
       "table1": "A-1",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "ちっち＠韓国語やるorめっちゃやる",
       "url": "https://libecity.com/user_profile/hxFIfLki19UZdmQpovsOFbzBNqv2",
       "table1": "D-11",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "ちび太＠高配当株勉強中",
       "url": "https://libecity.com/user_profile/U6spIVM0s2fswuv9dXwYMmtoYn42",
       "table1": "E-3",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "チョコ",
       "url": "https://libecity.com/user_profile/iMnmXO8E0ZhhwfvmHArT615pwgb2",
       "table1": "C-11",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "チョコクッキー@投資🍪",
       "url": "https://libecity.com/user_profile/yyrGBtywmRS97R2JwPJXO5GALOZ2",
       "table1": "B-4",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "ちょこぱん@webデザイナー&2児ママ",
       "url": "https://libecity.com/user_profile/7vfjmAxH4gO9pNTeDjl4ZUne6Yq1",
       "table1": "A-5",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "つくし＠農作業サポーター",
       "url": "https://libecity.com/user_profile/FgxZeGnilbZgZIK6I9vEPjONWDp1",
       "table1": "D-10",
-      "serial1": "B-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-8"
     },
     {
       "name": "でぃーすけ",
       "url": "https://libecity.com/user_profile/2SrQd5aIFogWp9W6HmzCR0RG2H92",
       "table1": "E-12",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "てぃおまる＠留学相談ができるオン秘書🌎",
       "url": "https://libecity.com/user_profile/yg6vThpxipMJfthFuMMbt3CHEbo1",
       "table1": "C-6",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "テトリス",
       "url": "https://libecity.com/user_profile/k0mswKmlW1VyLzMoHdm499tCXqu2",
       "table1": "B-9",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "テラッシー＠旅行でワイワイしたい",
       "url": "https://libecity.com/user_profile/FcmYehmzk8YryJO2nK2cRFSiDmX2",
       "table1": "A-8",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "てるみん@稼ぐ力頑張り中",
       "url": "https://libecity.com/user_profile/qYN1ckn3TxPGU2VNsEtIntNoJdj1",
       "table1": "D-3",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "トゥーくん",
       "url": "https://libecity.com/user_profile/gESh2nV5V8N4Q0czzRJVhmmsYL23",
       "table1": "E-7",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "トクさん＠看護SNS・YouTube",
       "url": "https://libecity.com/user_profile/Y1Q351dHlBQoIUVIOoC17rCjr9E2",
       "table1": "C-1",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "とくちゃん",
       "url": "https://libecity.com/user_profile/kxltC4P89ag7su4Pb5Vkj9E9k6u1",
       "table1": "D-12",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "トニー@滋賀パーソナルトレーナー",
       "url": "https://libecity.com/user_profile/FEJ5Rqs7HBhwkliWi8nCNhfQY0o2",
       "table1": "A-2",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "トマ@懸賞好きな社労士受験生",
       "url": "https://libecity.com/user_profile/1C9E29MYgpaXn8I0U82MSMOyLTp1",
       "table1": "B-6",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "トミー🏠都内（中古賃貸）/リーマン",
       "url": "https://libecity.com/user_profile/YU8UHF7YhzgGHknkf2RKqp15aal2",
       "table1": "E-10",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "ともふみ@新聞記者",
       "url": "https://libecity.com/user_profile/qNXPTUZ8cOXIFx8T9mb5NnIygqF3",
       "table1": "C-9",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "ともまる。@大人の夏休み中",
       "url": "https://libecity.com/user_profile/EW0shOAxk1XUBYXFnAgZaMnjUyT2",
       "table1": "B-1",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "トモロウ@小学3年性",
       "url": "https://libecity.com/user_profile/wT7t9m8VpsOCiLqLRIDFhbNfO9P2",
       "table1": "A-11",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "なあはん",
       "url": "https://libecity.com/user_profile/7ehCEZfEEwP5zMt9WmaL5JIhf653",
       "table1": "D-5",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "なおなお831＠minneで1達成目標",
       "url": "https://libecity.com/user_profile/5J8GKhuXSZdO4RMnk1sDRm0bc4X2",
       "table1": "E-2",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "なおやん＠AI勉強中",
       "url": "https://libecity.com/user_profile/SQJe0q7Cx9XOpdtnR43oQtF63SE3",
       "table1": "C-4",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "なっこ＠宿題リスト進行中",
       "url": "https://libecity.com/user_profile/l9i7EUgS8jMPr3zpU60Uv4RVx2L2",
       "table1": "B-12",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "なっすん",
       "url": "https://libecity.com/user_profile/9f3D6NUbIaOVDPlDAVg1nIzcQme2",
       "table1": "A-3",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "ナナ＠よくしゃべるブロガー",
       "url": "https://libecity.com/user_profile/rGHW86rTMJV6YaM9I0uITREw0L03",
       "table1": "D-7",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "なないろ",
       "url": "https://libecity.com/user_profile/MliG2kINAtNyKSjItPQ5kVHykZD2",
       "table1": "E-6",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "なほこ@事務サポート/オン秘書/メルカリ",
       "url": "https://libecity.com/user_profile/39SSehY08nSnLuYaGZqcmQgzuSX2",
       "table1": "C-10",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "なるほど太郎@動画編集",
       "url": "https://libecity.com/user_profile/31fBhJQ3xdcf5a9oEKZLNRYTDT33",
       "table1": "B-5",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "ナンディ@レディガガ、トッド・ラングレン",
       "url": "https://libecity.com/user_profile/5sekD2VbONaWeno666bSWjRRIGU2",
       "table1": "A-12",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "にしにし@ブログ&レザークラフト",
       "url": "https://libecity.com/user_profile/IN9Iawz5pJbHuSOwWHQoywWSYgq2",
       "table1": "D-1",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "にしぴー＠転職前の壁打ちエージェント",
       "url": "https://libecity.com/user_profile/nLuc2UpaYfQvvjf2Iw7M297cB5n1",
       "table1": "E-8",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "にじひま🌈🌻",
       "url": "https://libecity.com/user_profile/XXOn3BNWhJR5JwSQ2RbqPPcsRfO2",
       "table1": "C-7",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "ニックネームが決まらない",
       "url": "https://libecity.com/user_profile/cRUB3GGKMgfF4T9Q1PGNbwnXSmt1",
       "table1": "B-3",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "にっしー@Webエンジニア",
       "url": "https://libecity.com/user_profile/qZg3tbBLZLbq0qu1TDSomicvVTu2",
       "table1": "A-6",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "にっしー@京都麻雀部🀄️管理人",
       "url": "https://libecity.com/user_profile/ndELekyJ4adtNMqS2lMzxb2lnKJ3",
       "table1": "D-8",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "にっと@建築士/YouTube",
       "url": "https://libecity.com/user_profile/sCqs2xsb2wgv3zp55Bb73hxbV333",
       "table1": "E-4",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "@にっぷる",
       "url": "https://libecity.com/user_profile/yTqddefc13S5abPI9cEGMZHxYsi2",
       "table1": "C-2",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "にのぽぽ@中国輸入せどり奮闘中",
       "url": "https://libecity.com/user_profile/tRxpo0DucAWG4yH0THGZOBYjbmy2",
       "table1": "B-10",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "ニャオし@だじゃれのひと",
       "url": "https://libecity.com/user_profile/YphAaGnZ1kT0YES5tVvnWPzo5AE3",
       "table1": "A-9",
-      "serial1": "E-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-10"
     },
     {
       "name": "ネゴ@AI企業導入・AI研修",
       "url": "https://libecity.com/user_profile/dl8rgHRMgzeYZaB2NaJGvoyBq5l1",
       "table1": "D-6",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "ねこたろう",
       "url": "https://libecity.com/user_profile/38GE5V7uCWdxTaLOkDlVjvEPs2F2",
       "table1": "E-1",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "のうち@編集・ライター",
       "url": "https://libecity.com/user_profile/yz4d0VUypSP4jIcZhlKnRl6Uoyj1",
       "table1": "C-12",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "のぎ",
       "url": "https://libecity.com/user_profile/aPLM9vn69wdQaOxJOxGYkSIVF1M2",
       "table1": "B-7",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "のりののの",
       "url": "https://libecity.com/user_profile/jwajQhoa3pUqu8r4abWk9Dw1F4H3",
       "table1": "A-4",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "のりやん@AI✕楽天ROOM",
       "url": "https://libecity.com/user_profile/97Z1immH9bbHRIMTxvGnl3GsiqI3",
       "table1": "D-9",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "のんちゃん",
       "url": "https://libecity.com/user_profile/mP6Mq7r4qQXnjwxLPGVWwZjaUEm1",
       "table1": "E-5",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "ノンノン",
       "url": "https://libecity.com/user_profile/0jp5pbX5j2Ppl29xrZ7DfmTQdKu2",
       "table1": "C-8",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "のんのん＠ハンドメイド",
       "url": "https://libecity.com/user_profile/qFgQfw0tOrTKBJPeUQA4KZGAX5X2",
       "table1": "B-4",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "のんびりサツキ@ブログ",
       "url": "https://libecity.com/user_profile/dY0JmervajWdt48ITiQrnPQVeCq2",
       "table1": "E-6",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "のんびり屋",
       "url": "https://libecity.com/user_profile/gZAVCZUetNajgwE7co8Ah1JTGYc2",
       "table1": "C-11",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "はちみつ＠ライティングで稼ぐ！",
       "url": "https://libecity.com/user_profile/szL8kgkpAPSrzfddbIrLR8foFeq2",
       "table1": "A-9",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "ハチロク＠✈️海外旅行コンシェルジュ🌐",
       "url": "https://libecity.com/user_profile/9lQG4ztrThaDtiWqFApSeD5CTLM2",
       "table1": "D-1",
-      "serial1": "E-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-10"
     },
     {
       "name": "はなび",
       "url": "https://libecity.com/user_profile/LEszTK6fPmMRBsj7sCXRfnGMsOI2",
       "table1": "B-12",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "ハナママ@ブログ🌼楽天ROOM",
       "url": "https://libecity.com/user_profile/9ZVQX6hlMaPH6d0eOgdtpXihpOH3",
       "table1": "C-4",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "はむ｜人生迷走中",
       "url": "https://libecity.com/user_profile/eDL5wBekkyYSKMPMu65IlpOGzgx1",
       "table1": "E-3",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "ぱらん＠先ずは“ＩＴリテラシー“↑↑",
       "url": "https://libecity.com/user_profile/bPTHJ83kcIXVJtPPbOT8tcRX3cC3",
       "table1": "A-7",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "はる",
       "url": "https://libecity.com/user_profile/NcJ433LLFYfGolACM1D4lIQO35h1",
       "table1": "D-5",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "はる⭐︎株式投資",
       "url": "https://libecity.com/user_profile/jyOFwK5bTuYBAefoamRHwNN4r042",
       "table1": "B-1",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "はるくま君",
       "url": "https://libecity.com/user_profile/MhOl3lLlJ7eKGy00ewoKsFqIE4q2",
       "table1": "C-9",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "はるちく",
       "url": "https://libecity.com/user_profile/ghuicOBIH1RvQnsnCCzmKWtFGTS2",
       "table1": "E-12",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "ぱん",
       "url": "https://libecity.com/user_profile/Wr8QC3qQymRt8h02KAw6WCqCk9p1",
       "table1": "A-3",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "ぴぃこ＠オン秘書・お悩み相談Vtuber",
       "url": "https://libecity.com/user_profile/DWwdyvGBesaj4Hklwg6EXdSsosJ2",
       "table1": "D-10",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "ひーちゃん",
       "url": "https://libecity.com/user_profile/ic8bAsg2qvUH6cMhaCe11pBUgW82",
       "table1": "B-7",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "ひがのんたん",
       "url": "https://libecity.com/user_profile/6vjz8TXUJFMhpXZWRlPThfsQIRO2",
       "table1": "C-2",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "ひきぶー",
       "url": "https://libecity.com/user_profile/541XYVlWDLheXTZeeQ15BSnN18D2",
       "table1": "E-5",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "ピグ@Amazonせどり自己配請負先募集",
       "url": "https://libecity.com/user_profile/vlYNSpCoSTbh6OPoYsJrNJAjLmG3",
       "table1": "A-10",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "ピスカ@Webライティング",
       "url": "https://libecity.com/user_profile/yPu1voucvvZr9zMnY5XMBtIPnsU2",
       "table1": "D-6",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "ぴの@保育士🦌",
       "url": "https://libecity.com/user_profile/uXoW5Fj5wrWdI7l02JIKlvYWB522",
       "table1": "B-3",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "ひろ＠絵本制作中🍙",
       "url": "https://libecity.com/user_profile/YeH6HkItHjO0fCXcADHU3IkRjil1",
       "table1": "C-8",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "ひろかず@クルマ系YouTuber",
       "url": "https://libecity.com/user_profile/OzdqgHJNJAX81kk3DEELJBxdq4K3",
       "table1": "E-1",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "ひろさん",
       "url": "https://libecity.com/user_profile/zcrhfX7koYPeEij1oUcC1b3u9oX2",
       "table1": "A-12",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "ひろさん",
       "url": "https://libecity.com/user_profile/MNeYjdVmGsgDUHm9F7FN2kDIIZE2",
       "table1": "D-9",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "ひろなお＠60代からのゆるポジ生活",
       "url": "https://libecity.com/user_profile/LSytG2b92NW8fZvPgHc8yKCfQyX2",
       "table1": "B-6",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "ひろひろ",
       "url": "https://libecity.com/user_profile/L2zsmrrIYqcvImoxphHinwORSd73",
       "table1": "C-5",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "ふう。",
       "url": "https://libecity.com/user_profile/Y0m17w9eeeXRJZTbjtVopF8kMx53",
       "table1": "E-7",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "ふーさん",
       "url": "https://libecity.com/user_profile/Cmgb8pjR4OfvEPgUHp2s15OAnco2",
       "table1": "A-8",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "ふーはん",
       "url": "https://libecity.com/user_profile/ucFZsMbadhhEzKHoyzDfW3VR1Yq2",
       "table1": "D-4",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "ふくしん@フリーランスエンジニア",
       "url": "https://libecity.com/user_profile/X568WCji4bW93H494g8EIbO3o1B2",
       "table1": "B-11",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "ふくりん＠簿記2級＋せどり勉強中",
       "url": "https://libecity.com/user_profile/1eJCItljFeOKlmyJvDahJIDaAal1",
       "table1": "C-10",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "ふくろー🦉フリー素材屋さん🎨",
       "url": "https://libecity.com/user_profile/XXbVqe2ZL5S3lWz4kbGhpSghLR03",
       "table1": "E-2",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "ぷごみん",
       "url": "https://libecity.com/user_profile/WaF8xEH2jYVatwGjuX491LR2btB3",
       "table1": "A-6",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "ふじもん",
       "url": "https://libecity.com/user_profile/b6uioy3CuwaPXOcIdemfog1MeAq2",
       "table1": "D-8",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "ぷじろ@Youtube挑戦",
       "url": "https://libecity.com/user_profile/LRYl7FWcCnd0CIdvpYmJbN4XVXo2",
       "table1": "B-9",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "ふっきー",
       "url": "https://libecity.com/user_profile/FkSIFi7rAGV75XqIuKeH3GODLtS2",
       "table1": "C-3",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "ふっこ💕@大学生👬カカリドキMAX",
       "url": "https://libecity.com/user_profile/LyErMgqj9hXEeMCkks6o1CBBct62",
       "table1": "E-10",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "ぷにぷに＠健康系エヴァンジェリスト見習い",
       "url": "https://libecity.com/user_profile/WKmodVuWWnYdXIoZfbD79690sqC3",
       "table1": "A-5",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "ふみ@看護学生×料理代行👩‍🍳🍳",
       "url": "https://libecity.com/user_profile/qNF4ubwyISaMdlRM5QX0zwBF9XE2",
       "table1": "D-2",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "ふみうさぎ@豊かさマインドで生きたい",
       "url": "https://libecity.com/user_profile/7lx9TBIT7vQ2Gfts7jHOecyIOrt2",
       "table1": "B-2",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "ふゆの",
       "url": "https://libecity.com/user_profile/taeG1S5xS0eja7kIzfxvy3l0E152",
       "table1": "C-12",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "プラント🌱せどり",
       "url": "https://libecity.com/user_profile/DqP2VyBIzQPaockL063rvUsS1ef1",
       "table1": "E-4",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "ぶるか@中国輸入&AI強化中",
       "url": "https://libecity.com/user_profile/aBinBmiNWsMermPEHNmdhVkHVE22",
       "table1": "A-1",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "へー＠WEBデザイン&動画編集/宿題🔥",
       "url": "https://libecity.com/user_profile/ybTenYr8orQNotB0ZjMTe1OVtsx2",
       "table1": "D-7",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "ぺち@旅行ブログ",
       "url": "https://libecity.com/user_profile/4DJQdkJuglW6zN8cC4kprRB13R82",
       "table1": "B-5",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "ベルロッド@電子書籍・ローカルAI",
       "url": "https://libecity.com/user_profile/uIPgSSdTArS3GiSjZNvz9rOzKsL2",
       "table1": "C-6",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "ぺろりん",
       "url": "https://libecity.com/user_profile/SgxFmpgzmBYUNtdBhz4gi90rzTy1",
       "table1": "E-9",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "ほいちゃん",
       "url": "https://libecity.com/user_profile/SNTW6XBn1newsjn4mzNerxPQabd2",
       "table1": "A-4",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "ほっぴー@絶対NISA引き出さへん！",
       "url": "https://libecity.com/user_profile/7aNhLvnnAMOYSOoFbK6AC2TZfS03",
       "table1": "D-3",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "ぽぽ＠第2の人生🔰",
       "url": "https://libecity.com/user_profile/RTdRuUeU5xVuL2fPjrKIT16ChG63",
       "table1": "B-8",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "ボルジア@不動産勉強中",
       "url": "https://libecity.com/user_profile/7kZ4qCOR85doaO2LlKn3fTc6WyZ2",
       "table1": "C-1",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "ぼんた@AIイラスト漫画",
       "url": "https://libecity.com/user_profile/2zmdxvLaVvMjYmL8sKlRx98zk2r2",
       "table1": "E-11",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "まぁ@投資.楽天ルーム",
       "url": "https://libecity.com/user_profile/mHY1bEG9ioZj7VIRS8fKyVd9lUG2",
       "table1": "A-11",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "まい｜クラウド会計の経理屋さん",
       "url": "https://libecity.com/user_profile/eD1cfoSU5RbEaap85BnWXiy9Qcv2",
       "table1": "D-12",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "まいせー＠簿記3級勉強中",
       "url": "https://libecity.com/user_profile/LBocKVfbk0Vscct3UDjCFPKWlz53",
       "table1": "B-10",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "マエミキ@簿記3級勉強中🔥",
       "url": "https://libecity.com/user_profile/EOwmPZA559SoOjMCjr2haPLqBfE2",
       "table1": "C-7",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "まきさん@テニスコーチ&動画編集",
       "url": "https://libecity.com/user_profile/YyMc9tlxPSckirvHQdcLiSxTilD2",
       "table1": "E-8",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "まこ@ebay挑戦中",
       "url": "https://libecity.com/user_profile/anBVPHlKvvOtkCcWXV9OTttYhIC3",
       "table1": "A-2",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "まこ@副業せどり",
       "url": "https://libecity.com/user_profile/c8lZm8VvTZg5zAU32YvPNCffE6S2",
       "table1": "D-11",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "まこと＠AI・客船好き",
       "url": "https://libecity.com/user_profile/0QQGsGfTy3Q8OUGPtEGuq0QearV2",
       "table1": "B-7",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "まこもち＠せどり",
       "url": "https://libecity.com/user_profile/GhPISRjFDURp5AYppJ5BGthKPUj1",
       "table1": "C-4",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "まさと",
       "url": "https://libecity.com/user_profile/CiENZPF6prWJCMD1cQN329mMprg2",
       "table1": "E-3",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "まさむね＠ハンドメイド0→1挑戦中！",
       "url": "https://libecity.com/user_profile/HVQHA6MhukbxMiWN5paRmRPOb7t1",
       "table1": "A-7",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "まっつん",
       "url": "https://libecity.com/user_profile/I9JTnL9I4hfwsbTtH5AvL3VgMcf2",
       "table1": "D-5",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "まなっち@ブログ∞インスタ",
       "url": "https://libecity.com/user_profile/5qV0FAg7sfUr94QZSTAeXs5CNuA3",
       "table1": "B-1",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "まにい@簿記3級勉強中",
       "url": "https://libecity.com/user_profile/kXEFCJlvjpPZtoLWuvITACYJAj33",
       "table1": "C-9",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "まもっと@フェルトハンドメイドに挑戦中",
       "url": "https://libecity.com/user_profile/AP8TJgwssSbrVP15uYxdjsFkCum2",
       "table1": "E-12",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "まゆまめ@稼ぐ力注力中",
       "url": "https://libecity.com/user_profile/IQsriVbgUbc4fOUuYhgb2fxncCe2",
       "table1": "A-3",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "まる",
       "url": "https://libecity.com/user_profile/hFVOfLgqQwdQufH26eTuIBfO51t2",
       "table1": "D-10",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "まる@オフ会参加とノウハウ図書館！",
       "url": "https://libecity.com/user_profile/vobQ5MjBBjMscGw2tzwZbKtIIIy1",
       "table1": "B-6",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "まるるちゃん@ピアノの先生＆店舗せどり",
       "url": "https://libecity.com/user_profile/zLaGk9hBFeeFR5ON5gQBVz57jVw2",
       "table1": "C-2",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "みぃ@株投資",
       "url": "https://libecity.com/user_profile/zQdrGxaKIqZwnn5mR9ZHDP3GWHq2",
       "table1": "E-5",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "みー@年の差3人ママ",
       "url": "https://libecity.com/user_profile/p7GHQjA6vLdMf1I8ZB8JLKfaQ4f1",
       "table1": "A-10",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "みぃ♡",
       "url": "https://libecity.com/user_profile/YzBvR0A1xjWr0NAUqfg86PhIf7I2",
       "table1": "D-6",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "みいこ@価値観マップ作る",
       "url": "https://libecity.com/user_profile/gCfLmuZLkufykMM7XN3wxdGpNpt1",
       "table1": "B-3",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "みーる@伴走型オンライン秘書",
       "url": "https://libecity.com/user_profile/UsqifzMRxcMOz2pl3k56ulDRnRp1",
       "table1": "C-8",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "ミカハル@特化ブログ✊",
       "url": "https://libecity.com/user_profile/iUnm4hU3eFdy4xS7nI411NxKC7t1",
       "table1": "E-1",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "みき@造花髪飾りハンドメイド",
       "url": "https://libecity.com/user_profile/Kj3PrMOiRZSMLiPaB2QY3yXnmwz1",
       "table1": "A-12",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "みき🌱株式投資",
       "url": "https://libecity.com/user_profile/qRWXUf5DpYNAQW5TEm4vZHDwcMG2",
       "table1": "D-9",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "みきかつ@LINE構築\"取組中\"",
       "url": "https://libecity.com/user_profile/deMQFDAT7ZVVnMvipSxvXV5SJP23",
       "table1": "B-6",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "みきっぺ",
       "url": "https://libecity.com/user_profile/vv4jP8vTLfWQQdT2AokZz1pb1qr2",
       "table1": "C-5",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "みくひな",
       "url": "https://libecity.com/user_profile/K2gOjvqc7gay231A4HmFqWUbBAU2",
       "table1": "E-7",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "みけ",
       "url": "https://libecity.com/user_profile/JFHXgInC4zdZ1u0ltTbY9W1VfGm1",
       "table1": "A-8",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "みけ@せどり、大家、捨て活",
       "url": "https://libecity.com/user_profile/wTQl728dNKeoPYHGFgEcCICdoye2",
       "table1": "D-4",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "みたま@家事代行",
       "url": "https://libecity.com/user_profile/pXuqZpJUQ0fJGF6uwz3VltvyDDE2",
       "table1": "B-11",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "みっくん@とにかく挑戦",
       "url": "https://libecity.com/user_profile/B9x4azg5pgNHcspFJb7qs7BMXlw2",
       "table1": "C-10",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "みっちゃん",
       "url": "https://libecity.com/user_profile/eINwHAijFAUavTASveYp7Qp9mJt1",
       "table1": "E-2",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "みなとん@大家",
       "url": "https://libecity.com/user_profile/HH2AntLBRVWCs7dTDAZktHUL4fs1",
       "table1": "A-6",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "みぽやん💕ゆるっとハッピーに♪",
       "url": "https://libecity.com/user_profile/kGPvvpNBq1UmJNSw3eehW3P6QzH2",
       "table1": "D-8",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "みほりん＠カフェメディア運営",
       "url": "https://libecity.com/user_profile/Ulj3Q9iUyyT7Q83jO9KIhRprmdx2",
       "table1": "B-9",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "みむ",
       "url": "https://libecity.com/user_profile/VOnhirKrG5NVdrBElW9clNCZA7q1",
       "table1": "C-3",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "みや",
       "url": "https://libecity.com/user_profile/rdAts3GiNTeQS0qEQkJN46IzFT02",
       "table1": "E-10",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "みや",
       "url": "https://libecity.com/user_profile/dV6dvrQeblY4RgAGjWL4tcqR7Vw2",
       "table1": "A-5",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "みゃーぱぱ@AI起業",
       "url": "https://libecity.com/user_profile/AqLthEOf8gc1UF0pgFKiAZzPTk52",
       "table1": "D-2",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "みやっち＠飛び込み営業",
       "url": "https://libecity.com/user_profile/ks5hgASVGOc3NpIZJrFHE2ZLbDu1",
       "table1": "B-2",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "みよこ",
       "url": "https://libecity.com/user_profile/wHBhHY4m31ak0wMWcOqv617GkN52",
       "table1": "C-12",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "むぅ@ブログ x 資産防衛",
       "url": "https://libecity.com/user_profile/IpMJFbdzQfWT9OLogbpdwsCwiHk1",
       "table1": "E-4",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "ムーにゃんメルにゃん",
       "url": "https://libecity.com/user_profile/zUBjwX1SbsOmxfKlrCznNbMsCCd2",
       "table1": "A-1",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "メガネのあめり✦ビーズでアイコン制作🪡",
       "url": "https://libecity.com/user_profile/qjksONjN0tTjQx131wzU1k104Vi1",
       "table1": "D-7",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "めぐみ@ITリテラシー向上中",
       "url": "https://libecity.com/user_profile/931nUKsntYPseMnccrN03WWdzqr2",
       "table1": "B-5",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "も-り@うどん県/せどり挑戦中",
       "url": "https://libecity.com/user_profile/jHKhy1bp8DNyUXbGm9eAQ3IF0Et2",
       "table1": "C-6",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "もみじ",
       "url": "https://libecity.com/user_profile/raz0WTqZaHeF6fIOyI0AKeqcU8i2",
       "table1": "E-9",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "もも",
       "url": "https://libecity.com/user_profile/YV4UtkbOhgNGyCVo9JjJfVAoOGk2",
       "table1": "A-6",
-      "serial1": "D-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-4"
     },
     {
       "name": "🍑ももさくら🌸",
       "url": "https://libecity.com/user_profile/yP2CnFCQ2MMmqHtN0wmoRJjyDCB2",
       "table1": "C-2",
-      "serial1": "B-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-9"
     },
     {
       "name": "もり@中国せどり×模型製作",
       "url": "https://libecity.com/user_profile/5GLv8Ca7LUZIzBlBI3AfJ2eHOfq1",
       "table1": "E-11",
-      "serial1": "A-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-1"
     },
     {
       "name": "やぁい",
       "url": "https://libecity.com/user_profile/ZutVgtwIfEayTRgjkvCHv6ABlYA2",
       "table1": "D-7",
-      "serial1": "C-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-8"
     },
     {
       "name": "やす@サンタ",
       "url": "https://libecity.com/user_profile/G0QKHc9UjXhSt9ZeA2ARYJz3vpL2",
       "table1": "B-5",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "やっさん7号",
       "url": "https://libecity.com/user_profile/gkarJgH1j1fVnYGxua3B2WoJv0l1",
       "table1": "A-9",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "やっちゃん@せどり（副業）",
       "url": "https://libecity.com/user_profile/BduyUT7OZPZOvMYtWfg5fg240fu2",
       "table1": "C-10",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "やまぶき",
       "url": "https://libecity.com/user_profile/bLpTZD8m08MKV9KipUVicZF1Uvq2",
       "table1": "E-4",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "ゆあ",
       "url": "https://libecity.com/user_profile/L4FAC0ukc0QjayjX9t6cixCk7Lx1",
       "table1": "D-3",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "ゆい＠YouTube月５万挑戦中",
       "url": "https://libecity.com/user_profile/8VToJS6wm3h7AfksuzxJG0tyUI13",
       "table1": "B-12",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "ゆいたは＠稼ぐ力模索中",
       "url": "https://libecity.com/user_profile/KO4LJ66dIMad2SDcSEPJpJ41mtl1",
       "table1": "A-4",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "ゆう@AIxYouTube",
       "url": "https://libecity.com/user_profile/Rq8yYfpdkabLImA3n6SwW95HY1O2",
       "table1": "C-6",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "ゆー@YouTube",
       "url": "https://libecity.com/user_profile/4NWJE6CF5ffnFaOVVT2WPuaiQPo1",
       "table1": "E-7",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "ゆう＠ゆうここ🥖楽天ROOM＆オン秘書",
       "url": "https://libecity.com/user_profile/RMxfbNz2w5T1CGgNFVB2uBJrqKy1",
       "table1": "D-10",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "ゆぅ@副業模索中",
       "url": "https://libecity.com/user_profile/A5NwGRVQuwSSL9U9o5HlL1rfP022",
       "table1": "B-1",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "ゆか@心と体の遠隔施術",
       "url": "https://libecity.com/user_profile/EFQDEoMqOrdEwlfJ1glqomE9eB73",
       "table1": "A-11",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "ゆかた@万アカ達成！インスタ運用代行",
       "url": "https://libecity.com/user_profile/8ZlRdeMobXRry8GmSJZV7juJGjt2",
       "table1": "C-3",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "ゆしろー@ブログでsideFIRE挑戦",
       "url": "https://libecity.com/user_profile/lRw5jJKENEMPQiN7X9yMQG6A0fv2",
       "table1": "E-2",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "ゆずあん",
       "url": "https://libecity.com/user_profile/fO2WD4aUJUXXomiuxTdeU4714nE2",
       "table1": "D-8",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "ゆずぴん",
       "url": "https://libecity.com/user_profile/XluqVbRz7iOi5VoR1u0CV4cDvjq1",
       "table1": "B-7",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "ゆぴまる",
       "url": "https://libecity.com/user_profile/8NyRjU0o5YRVJzzjQgAlF1rci4A2",
       "table1": "A-2",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "ゆんちゃん🌈ワクワク未来を話しましょう",
       "url": "https://libecity.com/user_profile/MRes2Ss4ibSecikwXIpCsFD3cLU2",
       "table1": "C-12",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "よし@ブランドせどり",
       "url": "https://libecity.com/user_profile/XSRCjAwCUoNfhaB2mZVyOtYppRz2",
       "table1": "E-6",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "よすけ@AI×BGM🎧️ブログ✏️",
       "url": "https://libecity.com/user_profile/pLAKZa7LkLdC4TSjkLJzVerO38b2",
       "table1": "D-5",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "よっしぃ",
       "url": "https://libecity.com/user_profile/pqHRJvh0gmN1WnDse36rtvprII22",
       "table1": "B-10",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "よっちゃん",
       "url": "https://libecity.com/user_profile/uuuK0OPHseaONUEkKGXpEh7g35G3",
       "table1": "A-7",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "ライターゆうゆう＠心をツカむ売れる文",
       "url": "https://libecity.com/user_profile/g3r6SQc0KqRnCrYlnzg9ykzH3rG3",
       "table1": "C-5",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "ライブ@ブログで副業を目指す",
       "url": "https://libecity.com/user_profile/F7NKF1GatshoksaB32vBSdkDkmE2",
       "table1": "E-9",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "らいらい",
       "url": "https://libecity.com/user_profile/3frDxKNPelRfxs86noujTz86Ely2",
       "table1": "D-12",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "りーこ＠デザイン🍀簿記3級勉強中",
       "url": "https://libecity.com/user_profile/4RMP13dGPjRs71YylSLAM40emKv2",
       "table1": "B-3",
-      "serial1": "E-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-4"
     },
     {
       "name": "りおすけ＠遺品整理",
       "url": "https://libecity.com/user_profile/ggeJPNZ7SDh1h9tIX5xJFtyN1602",
       "table1": "A-8",
-      "serial1": "D-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-10"
     },
     {
       "name": "りか",
       "url": "https://libecity.com/user_profile/M78q9WOsBqYwNsNpHDCwiYQiBbJ2",
       "table1": "C-9",
-      "serial1": "B-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-5"
     },
     {
       "name": "りっこ",
       "url": "https://libecity.com/user_profile/zRANI3UVZcgpu2r1YsrO8y68Ipw1",
       "table1": "E-1",
-      "serial1": "A-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-6"
     },
     {
       "name": "りゃん@ベビーシッター&ハンドメイド",
       "url": "https://libecity.com/user_profile/hcAMxgGhz9Q4mUbo5PHm7zlhqWF3",
       "table1": "D-6",
-      "serial1": "C-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-2"
     },
     {
       "name": "りゅうちゃん＠Webマーケ",
       "url": "https://libecity.com/user_profile/wxB7ax5k6vPT4gMnNPLF6Aee59p2",
       "table1": "B-11",
-      "serial1": "E-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-10"
     },
     {
       "name": "りょう@銀行員/YouTube動画編集",
       "url": "https://libecity.com/user_profile/UAUt5FJFZPgIR4Xg098oo3ooR7C3",
       "table1": "A-12",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "りょーこ@YouTube",
       "url": "https://libecity.com/user_profile/6XQlGiJA0VTOQlpAk1UqDKeLgTY2",
       "table1": "C-1",
-      "serial1": "B-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-7"
     },
     {
       "name": "りりらいおん",
       "url": "https://libecity.com/user_profile/R4ljBYmkrVRo5kNvqLyF13iu3rX2",
       "table1": "E-5",
-      "serial1": "A-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-4"
     },
     {
       "name": "るた@手芸材料のリユース販売",
       "url": "https://libecity.com/user_profile/Hk4DuJA7ijMn0xCh3Q3LWLprwwb2",
       "table1": "D-9",
-      "serial1": "C-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-11"
     },
     {
       "name": "ルビー@転職活動中",
       "url": "https://libecity.com/user_profile/SRTHUDW9SlOyHTTkJW3K5P3e1303",
       "table1": "B-4",
-      "serial1": "E-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-6"
     },
     {
       "name": "れもんぱい",
       "url": "https://libecity.com/user_profile/cd3CugjxcGXmBMl9HYBu3AUCotl2",
       "table1": "A-3",
-      "serial1": "D-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-2"
     },
     {
       "name": "ろあ",
       "url": "https://libecity.com/user_profile/81yhinvJXAWePGJQjgf1lINIZ1w1",
       "table1": "C-8",
-      "serial1": "B-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-12"
     },
     {
       "name": "ろあ@副業オン秘書24h",
       "url": "https://libecity.com/user_profile/rxmIesoh6CU4y7MLEIH5T3UGN6X2",
       "table1": "E-10",
-      "serial1": "A-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-5"
     },
     {
       "name": "ろか@バイク女子ブログ🏍️",
       "url": "https://libecity.com/user_profile/Z7WhVBox0dd1SipSgCsTGnNtAmE2",
       "table1": "D-1",
-      "serial1": "C-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-3"
     },
     {
       "name": "わう＠イラストレーター（IP系）",
       "url": "https://libecity.com/user_profile/psWSPVRuj7a9F5C9G053qoStHBu1",
       "table1": "B-8",
-      "serial1": "E-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-1"
     },
     {
       "name": "わたぼうし@ブログ作成中",
       "url": "https://libecity.com/user_profile/jfjD4dcl2eTGwomCbnpiCW47JlS2",
       "table1": "A-10",
-      "serial1": "D-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-12"
     },
     {
       "name": "わんたん＠看護師/インスタ.楽天ROOM",
       "url": "https://libecity.com/user_profile/eiRltBI7n4VMdwc3nYvFyMsWbfk1",
       "table1": "C-4",
-      "serial1": "B-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-3"
     },
     {
       "name": "絵本のやまみ🐱絵本作家/絵描き",
       "url": "https://libecity.com/user_profile/STh71r2AJJPxlgtIzBKfwSeCk5m1",
       "table1": "E-3",
-      "serial1": "A-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-7"
     },
     {
       "name": "巻",
       "url": "https://libecity.com/user_profile/LM5W5Qou7dhb6gGBqff3iOqM66o1",
       "table1": "D-11",
-      "serial1": "C-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-10"
     },
     {
       "name": "幹太",
       "url": "https://libecity.com/user_profile/ypfYKcGVhdPBGc8SWXjloLV6DGu2",
       "table1": "B-6",
-      "serial1": "E-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-9"
     },
     {
       "name": "起きた元気@行動するマン",
       "url": "https://libecity.com/user_profile/KVhoVPSmyKOyFNQto7k7HNMTBTs2",
       "table1": "A-5",
-      "serial1": "D-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-11"
     },
     {
       "name": "空猫",
       "url": "https://libecity.com/user_profile/DCG3KOOR0BciYV9XlwabQIJsQEm2",
       "table1": "C-7",
-      "serial1": "B-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-8"
     },
     {
       "name": "向日葵(ひまわり)@家事代行&店舗清掃",
       "url": "https://libecity.com/user_profile/3FR492afvKUVsU36HOsJtyWwhn33",
       "table1": "E-12",
-      "serial1": "A-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-2"
     },
     {
       "name": "黒にこ@ブログ・楽天ROOM🐣育成中",
       "url": "https://libecity.com/user_profile/6i4Gx7f5ZCZrX9rUOKF7ESQXW9E3",
       "table1": "D-2",
-      "serial1": "C-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-7"
     },
     {
       "name": "鮫汰朗/動画編集/YouTuber",
       "url": "https://libecity.com/user_profile/WUrs1zczXHeOETcrKL8A7tmthds1",
       "table1": "B-9",
-      "serial1": "E-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-11"
     },
     {
       "name": "鹿＠宿題チャレンジ継続中💰😆💰",
       "url": "https://libecity.com/user_profile/KMosegTBz4MYwGWOUjEm4LdvUxy1",
       "table1": "A-1",
-      "serial1": "D-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-5"
     },
     {
       "name": "松風@植木屋",
       "url": "https://libecity.com/user_profile/Fh69egZo7ibKzPaAbYlOK974lVU2",
       "table1": "C-11",
-      "serial1": "B-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-10"
     },
     {
       "name": "青空deつばっくろー｜書くを楽しむ",
       "url": "https://libecity.com/user_profile/ko3y6Om3SUSmR2DzcsJ8rGrGUYl2",
       "table1": "E-8",
-      "serial1": "A-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-9"
     },
     {
       "name": "大ちゃん＠家計管理挑戦中",
       "url": "https://libecity.com/user_profile/f9PBv7ClSDZUBXDZt97plO6r7303",
       "table1": "D-4",
-      "serial1": "C-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-12"
     },
     {
       "name": "大阪のソラ＠YouTube×BGM",
       "url": "https://libecity.com/user_profile/OyQK8R2KJBgOibJOuciTvhcqu3s2",
       "table1": "B-2",
-      "serial1": "E-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-2"
     },
     {
       "name": "宅建かーさん＠ブログチャレンジ中",
       "url": "https://libecity.com/user_profile/BHu38OwzybNKUMs6NQyXfnEUvaK2",
       "table1": "A-6",
-      "serial1": "D-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-6"
     },
     {
       "name": "茶がゆ@小児科開業医",
       "url": "https://libecity.com/user_profile/YTWgkIuQGhd11P1nTOOPH801reP2",
       "table1": "C-2",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "茶好き@転職活動頑張る💪",
       "url": "https://libecity.com/user_profile/bNPvlPtMRNNK07e0AFZBgGNgW4M2",
       "table1": "E-11",
-      "serial1": "A-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-8"
     },
     {
       "name": "朝活推しの健@家計管理中",
       "url": "https://libecity.com/user_profile/Pl9UIM94mEXWfxTQx6jAo7eo4uE3",
       "table1": "D-7",
-      "serial1": "C-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-9"
     },
     {
       "name": "豆苗@ふたごの母・足つぼ職人",
       "url": "https://libecity.com/user_profile/p6BUrIMrK7UQM5dyfTpOQkdxFPj1",
       "table1": "B-5",
-      "serial1": "E-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-3"
     },
     {
       "name": "梅@副業の種🌱探し中",
       "url": "https://libecity.com/user_profile/6G0wt9q8HQP6Z3eej2a9pw23Lnp1",
       "table1": "A-9",
-      "serial1": "D-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-1"
     },
     {
       "name": "白猫ニコル",
       "url": "https://libecity.com/user_profile/UB67P1cMvIbGg8mWpP9dyvwgzBF2",
       "table1": "C-10",
-      "serial1": "B-2",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-2"
     },
     {
       "name": "髭dan＠高配当株勉強中",
       "url": "https://libecity.com/user_profile/i9ZXKSkKZWQtSp7y2l8IcnwHBCC3",
       "table1": "E-4",
-      "serial1": "A-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-12"
     },
     {
       "name": "福澤ゆきっち🏸つなスペ親子スペース",
       "url": "https://libecity.com/user_profile/Avn1arojcsfiWIw1Ejgz4clQNfO2",
       "table1": "D-3",
-      "serial1": "C-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-5"
     },
     {
       "name": "保健太郎@刺繍屋の息子",
       "url": "https://libecity.com/user_profile/kIN3C7PUqSb3x02gZITE5NcaE2a2",
       "table1": "B-12",
-      "serial1": "E-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-8"
     },
     {
       "name": "優（ゆ）う＠メルカリ出品",
       "url": "https://libecity.com/user_profile/FAXUPygREcg9VhN0whZEOJVjDl82",
       "table1": "A-4",
-      "serial1": "D-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-7"
     },
     {
       "name": "類はトムをボブ@AI×BGM挑戦中",
       "url": "https://libecity.com/user_profile/7Vpw6sffFCdoVVR53OeV4XhX7k02",
       "table1": "C-6",
-      "serial1": "B-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-11"
     },
     {
       "name": "和花＠オン秘書挑戦中",
       "url": "https://libecity.com/user_profile/Oxo7Z9QCu4YuhFqZsi2HVAU6G7T2",
       "table1": "E-7",
-      "serial1": "A-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-3"
     },
     {
       "name": "莉亜＠稼ぐ力進め中",
       "url": "https://libecity.com/user_profile/JWOXpG3lGvclHirLebsDGv9szEH2",
       "table1": "D-10",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     },
     {
       "name": "おいね",
       "url": "https://libecity.com/user_profile/EDzcArwRPRScFahva0QMtcku31f2",
       "table1": "B-1",
-      "serial1": "E-5",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-5"
     },
     {
       "name": "しおりーぬ",
       "url": "https://libecity.com/user_profile/08hN6XczWsOYX8UV6nUkZstHxf83",
       "table1": "A-11",
-      "serial1": "D-8",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-8"
     },
     {
       "name": "ayabe",
       "url": "https://libecity.com/user_profile/fKA7hjYnpaMA3WwTq5e4dKHsucI3",
       "table1": "C-3",
-      "serial1": "B-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-6"
     },
     {
       "name": "おの",
       "url": "https://libecity.com/user_profile/rMF8JbgDK6Mq4JWi9NEzcJhHTxu1",
       "table1": "E-2",
-      "serial1": "A-10",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-10"
     },
     {
       "name": "レオ",
       "url": "https://libecity.com/user_profile/kHyRHYH7SndjDXb5OvLezmxDMXq2",
       "table1": "D-8",
-      "serial1": "C-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-4"
     },
     {
       "name": "nana（奈那）",
       "url": "https://libecity.com/user_profile/L2BfpdRIeIQuqB3L6eZyFgcCtPz1",
       "table1": "B-7",
-      "serial1": "E-12",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-12"
     },
     {
       "name": "ひろ",
       "url": "https://libecity.com/user_profile/3qcOFLdes0UPI9GGO505epqvmig1",
       "table1": "A-2",
-      "serial1": "D-9",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-9"
     },
     {
       "name": "うれい",
       "url": "https://libecity.com/user_profile/cF4wJdUG1nXFyyF3A5i7fWJhVVt1",
       "table1": "C-12",
-      "serial1": "B-4",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-4"
     },
     {
       "name": "Asuka",
       "url": "https://libecity.com/user_profile/0lL9yUK01hVD82y2DflvKIXXO522",
       "table1": "D-5",
-      "serial1": "C-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-1"
     },
     {
       "name": "はーちゃん",
       "url": "https://libecity.com/user_profile/FDAol9AahnQYNP50wUoxqHFKGo12",
       "table1": "B-10",
-      "serial1": "E-7",
-      "table2": "",
-      "serial2": ""
+      "table2": "E-7"
     },
     {
       "name": "ティーレモン",
       "url": "https://libecity.com/user_profile/ph8QWTXY6FbizDPKkM7T3ATnttY2",
       "table1": "A-7",
-      "serial1": "D-3",
-      "table2": "",
-      "serial2": ""
+      "table2": "D-3"
     },
     {
       "name": "ナッツ",
       "url": "https://libecity.com/user_profile/bAZMpcISo5dLHtzULhA4hfO7BQP2",
       "table1": "C-5",
-      "serial1": "B-1",
-      "table2": "",
-      "serial2": ""
+      "table2": "B-1"
     },
     {
       "name": "なっち",
       "url": "https://libecity.com/user_profile/7Y9eV53R4BaLWEfMn6vfzQeJpCz2",
       "table1": "E-9",
-      "serial1": "A-11",
-      "table2": "",
-      "serial2": ""
+      "table2": "A-11"
     },
     {
       "name": "ギズモ",
       "url": "https://libecity.com/user_profile/AUJKb6VHBEQ7skbimWk3k0JNtsl1",
       "table1": "D-12",
-      "serial1": "C-6",
-      "table2": "",
-      "serial2": ""
+      "table2": "C-6"
     }
   ]
 }
