@@ -540,10 +540,24 @@
       pointer-events: auto;
     }
 
+    /* サポート案内 */
+    .support-info {
+      font-size: 0.78rem;
+      color: #a09d95;
+      line-height: 1.7;
+    }
+    .support-info a {
+      color: #de1b65;
+      text-decoration: none;
+    }
+    .support-info a:hover {
+      text-decoration: underline;
+    }
+
     /* フッター */
     .footer {
       text-align: center;
-      padding: 1.5rem;
+      padding: 1.5rem 1rem;
       font-size: 0.75rem;
       color: #a09d95;
     }
@@ -643,6 +657,7 @@
   <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})">▲</button>
 
   <div class="footer">
+    <div class="support-info">ご不明点は <a href="https://libecity.com/user_profile/6sI7wVKywISmfAFrbyIJjVPI0jC3" target="_blank" rel="noopener">リベシティ運営</a> もしくは イベント会場の「サポート案内」まで</div>
     <span class="update-time" id="updateTime"></span>
   </div>
 
@@ -712,6 +727,7 @@
     }
 
     const SPREADSHEET_URL = 'https://docs.google.com/spreadsheets/d/1xbQq_tO4zwVLgq5dcz65zrDxc5RWSfzs1wBJO3lEiYQ/edit?gid=1790222964#gid=1790222964';
+    const SUPPORT_HTML = '<div class="support-info" style="margin-top:1rem;">ご不明点は <a href="https://libecity.com/user_profile/6sI7wVKywISmfAFrbyIJjVPI0jC3" target="_blank" rel="noopener">リベシティ運営</a> もしくは イベント会場の「サポート案内」まで</div>';
 
     function showError(title, message) {
       const results = document.getElementById('results');
@@ -720,6 +736,7 @@
           <div class="error-title">${escapeHTML(title)}</div>
           <div class="error-message">${escapeHTML(message).replace(/\n/g, '<br>')}</div>
           <a href="${SPREADSHEET_URL}" target="_blank" rel="noopener" style="display:inline-block; margin-top:0.8rem; color:#de1b65; font-size:0.85rem;">スプレッドシートで直接確認する →</a>
+          ${SUPPORT_HTML}
         </div>`;
     }
 
@@ -744,7 +761,7 @@
       }
 
       if (matches.length === 0) {
-        results.innerHTML = '<div class="no-result">該当するデータが見つかりませんでした<br><a href="' + SPREADSHEET_URL + '" target="_blank" rel="noopener" style="color:#de1b65; font-size:0.85rem;">スプレッドシートで直接確認する →</a></div>';
+        results.innerHTML = '<div class="no-result">該当するデータが見つかりませんでした<br><a href="' + SPREADSHEET_URL + '" target="_blank" rel="noopener" style="color:#de1b65; font-size:0.85rem;">スプレッドシートで直接確認する →</a>' + SUPPORT_HTML + '</div>';
         highlightTable1 = null;
         highlightTable2 = null;
         updateLayoutMarkers();
