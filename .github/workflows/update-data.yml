@@ -47,7 +47,7 @@ jobs:
               if not name:
                   continue
               table1 = row[2].strip() if len(row) > 2 else ""
-              table2 = row[4].strip() if len(row) > 4 else ""
+              table2 = row[3].strip() if len(row) > 3 else ""
 
               if table1 and table1 not in VALID_TABLES:
                   warnings.append(f"{name}: グループ①「{table1}」が不正です")
@@ -58,9 +58,7 @@ jobs:
                   "name": name,
                   "url": row[1].strip() if len(row) > 1 else "",
                   "table1": table1,
-                  "serial1": row[3].strip() if len(row) > 3 else "",
-                  "table2": table2,
-                  "serial2": row[5].strip() if len(row) > 5 else ""
+                  "table2": table2
               }
               data.append(entry)
 
@@ -145,6 +143,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           git diff --cached --quiet && echo "変更なし" && exit 0
-           git commit -m "データ更新: $(date '+%Y-%m-%d %H:%M' -d '+9 hours')"
+          git commit -m "データ更新: $(date '+%Y-%m-%d %H:%M' -d '+9 hours')"
           git pull --rebase origin main
           git push
