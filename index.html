@@ -161,6 +161,41 @@
       line-height: 1.7;
     }
 
+    /* 候補リスト */
+    .candidate-list {
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      padding: 1rem;
+    }
+    .candidate-title {
+      text-align: center;
+      font-size: 0.9rem;
+      color: #a09d95;
+      margin-bottom: 0.8rem;
+    }
+    .candidate-btn {
+      display: block;
+      width: 100%;
+      padding: 0.7rem 1rem;
+      margin-bottom: 0.4rem;
+      background: #fffcf2;
+      border: 2px solid #e0ddd5;
+      border-radius: 10px;
+      font-size: 0.95rem;
+      font-family: 'Keifont', "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+      color: #384860;
+      font-weight: 700;
+      cursor: pointer;
+      text-align: left;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .candidate-btn:hover,
+    .candidate-btn:active {
+      border-color: #de1b65;
+      background: #fff;
+    }
+
     /* プロフィールカード */
     .profile-card {
       background: #fff;
@@ -206,12 +241,17 @@
       font-weight: 700;
     }
     .round-section h3 .table-badge {
-      background: #de1b65;
       color: #fff;
       padding: 0.15rem 0.75rem;
       border-radius: 40px;
       font-size: 1.05rem;
       font-weight: 700;
+    }
+    .round-section h3 .table-badge.group1 {
+      background: #de1b65;
+    }
+    .round-section h3 .table-badge.group2 {
+      background: #7c3aed;
     }
 
     /* メンバーリスト */
@@ -229,17 +269,11 @@
       font-size: 0.85rem;
       white-space: nowrap;
     }
-    .member-list li.is-me {
-      background: #de1b65;
-      color: #fff;
-      border-color: #de1b65;
-      font-weight: 700;
-    }
     .member-list li a {
       color: inherit;
       text-decoration: none;
     }
-    .member-list li:not(.is-me) a:hover {
+    .member-list li a:hover {
       color: #de1b65;
     }
 
@@ -274,8 +308,8 @@
       border-radius: 50%;
       display: inline-block;
     }
-    .legend-dot.round1 { background: #3b82f6; }
-    .legend-dot.round2 { background: #ef4444; }
+    .legend-dot.round1 { background: #de1b65; }
+    .legend-dot.round2 { background: #7c3aed; }
     .layout-wrapper {
       background: #fff;
       border-radius: 12px;
@@ -335,39 +369,15 @@
       z-index: 2;
     }
     .layout-table.highlighted.hl-round1 {
-      outline-color: #3b82f6;
+      outline-color: #de1b65;
     }
     .layout-table.highlighted.hl-round2 {
-      outline-color: #ef4444;
+      outline-color: #7c3aed;
     }
     .layout-table.highlighted.hl-both {
-      outline-color: #8b5cf6;
-    }
-    .layout-table .marker {
-      position: absolute;
-      width: 18px;
-      height: 18px;
-      border-radius: 50%;
-      border: 2px solid #fff;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.4);
-      z-index: 3;
-      pointer-events: none;
-    }
-    .layout-table .marker.round1 {
-      background: #3b82f6;
-      top: -10px;
-      left: 50%;
-      transform: translateX(-70%);
-    }
-    .layout-table .marker.round2 {
-      background: #ef4444;
-      top: -10px;
-      left: 50%;
-      transform: translateX(10%);
-    }
-    .layout-table .marker.only {
-      left: 50%;
-      transform: translateX(-50%);
+      outline-color: #de1b65;
+      box-shadow: 0 0 0 3px #de1b65, 0 0 0 6px #7c3aed;
+      outline: none;
     }
     .layout-entrance {
       text-align: center;
@@ -509,6 +519,33 @@
       color: #de1b65;
     }
 
+    /* トップへ戻るボタン */
+    .back-to-top {
+      position: fixed;
+      bottom: 1.2rem;
+      right: 1.2rem;
+      width: 44px;
+      height: 44px;
+      background: #384860;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .back-to-top.visible {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
     /* フッター */
     .footer {
       text-align: center;
@@ -532,9 +569,6 @@
       .layout-grid { gap: 4px 2px; padding: 10px 3px 4px; min-width: 280px; }
       .layout-stage { font-size: 0.7rem; min-width: 20px; padding: 0.3rem 0.2rem; }
       .layout-table { font-size: 0.5rem; min-width: 22px; padding: 0.2rem 0.1rem; }
-      .layout-table .marker { width: 14px; height: 14px; }
-      .layout-table .marker.round1,
-      .layout-table .marker.round2 { top: -8px; }
     }
   </style>
 </head>
@@ -608,6 +642,8 @@
       <div class="accordion-inner" id="table2ListInner"></div>
     </div>
   </div>
+
+  <button class="back-to-top" id="backToTop" onclick="window.scrollTo({top:0, behavior:'smooth'})">▲</button>
 
   <div class="footer">
     データはGoogleスプレッドシートから取得しています
@@ -717,21 +753,40 @@
         return;
       }
 
-      const shown = matches.slice(0, 10);
-      results.innerHTML = shown.map(m => renderResult(m)).join('');
-
-      if (matches.length > 10) {
-        results.innerHTML += `<p class="no-result">他 ${matches.length - 10} 件が該当しています。検索条件を絞り込んでください。</p>`;
-      }
-
-      // 1件の場合、配置図にマーカー表示
       if (matches.length === 1) {
-        highlightTable1 = matches[0].table1;
-        highlightTable2 = matches[0].table2;
+        showSelectedResult(matches[0]);
       } else {
+        // 複数件 → 名前リストを表示
+        const shown = matches.slice(0, 20);
+        let html = '<div class="candidate-list"><p class="candidate-title">該当者を選んでください</p>';
+        shown.forEach((m, i) => {
+          html += `<button class="candidate-btn" data-idx="${i}">${escapeHTML(m.name)}</button>`;
+        });
+        if (matches.length > 20) {
+          html += `<p class="no-result">他 ${matches.length - 20} 件。検索条件を絞り込んでください。</p>`;
+        }
+        html += '</div>';
+        results.innerHTML = html;
+
+        // 候補タップで確定
+        results.querySelectorAll('.candidate-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            const idx = parseInt(btn.dataset.idx);
+            showSelectedResult(shown[idx]);
+          });
+        });
+
         highlightTable1 = null;
         highlightTable2 = null;
+        updateLayoutMarkers();
       }
+    }
+
+    function showSelectedResult(entry) {
+      const results = document.getElementById('results');
+      results.innerHTML = renderResult(entry);
+      highlightTable1 = entry.table1;
+      highlightTable2 = entry.table2;
       updateLayoutMarkers();
     }
 
@@ -745,16 +800,16 @@
           <a class="profile-url" href="${escapeHTML(entry.url)}" target="_blank" rel="noopener">${escapeHTML(entry.url)}</a>
 
           <div class="round-section">
-            <h3>グループ① テーブル <span class="table-badge">${escapeHTML(entry.table1)}</span></h3>
+            <h3>グループ① テーブル <span class="table-badge group1">${escapeHTML(entry.table1)}</span></h3>
             <ul class="member-list">
-              ${members1.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
+              ${members1.map(m => `<li><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
           </div>
 
           <div class="round-section">
-            <h3>グループ② テーブル <span class="table-badge">${escapeHTML(entry.table2)}</span></h3>
+            <h3>グループ② テーブル <span class="table-badge group2">${escapeHTML(entry.table2)}</span></h3>
             <ul class="member-list">
-              ${members2.map(m => `<li class="${m.name === entry.name ? 'is-me' : ''}"><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
+              ${members2.map(m => `<li><a href="${escapeHTML(m.url)}" target="_blank" rel="noopener">${escapeHTML(m.name)}</a></li>`).join('')}
             </ul>
           </div>
         </div>
@@ -822,8 +877,7 @@
     }
 
     function updateLayoutMarkers() {
-      // 既存のマーカーとハイライトを全削除
-      document.querySelectorAll('.layout-table .marker').forEach(el => el.remove());
+      // 既存のハイライトを全削除
       document.querySelectorAll('.layout-table.highlighted').forEach(el => {
         el.classList.remove('highlighted', 'hl-round1', 'hl-round2', 'hl-both');
       });
@@ -839,20 +893,9 @@
       const sameTable = highlightTable1 && highlightTable2 && highlightTable1 === highlightTable2;
 
       if (sameTable) {
-        // 両グループ同じテーブル
         const el = document.getElementById('layout-' + highlightTable1);
         if (el) {
           el.classList.add('highlighted', 'hl-both');
-          const m = document.createElement('div');
-          m.className = 'marker round1 only';
-          el.appendChild(m);
-          const m2 = document.createElement('div');
-          m2.className = 'marker round2 only';
-          m2.style.top = '-10px';
-          m2.style.left = '50%';
-          m2.style.transform = 'translateX(-50%)';
-          m2.style.top = '50%';
-          el.appendChild(m2);
           el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
       } else {
@@ -860,9 +903,6 @@
           const el = document.getElementById('layout-' + highlightTable1);
           if (el) {
             el.classList.add('highlighted', 'hl-round1');
-            const m = document.createElement('div');
-            m.className = 'marker round1 only';
-            el.appendChild(m);
             el.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
           }
         }
@@ -870,9 +910,6 @@
           const el = document.getElementById('layout-' + highlightTable2);
           if (el) {
             el.classList.add('highlighted', 'hl-round2');
-            const m = document.createElement('div');
-            m.className = 'marker round2 only';
-            el.appendChild(m);
           }
         }
       }
@@ -945,6 +982,12 @@
       content.classList.toggle('open');
       btn.classList.toggle('active');
     }
+
+    // トップへ戻るボタンの表示制御
+    const backToTop = document.getElementById('backToTop');
+    window.addEventListener('scroll', () => {
+      backToTop.classList.toggle('visible', window.scrollY > 300);
+    });
 
     loadData();
   </script>
