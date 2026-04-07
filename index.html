@@ -746,7 +746,7 @@
       }
 
       if (matches.length === 0) {
-        results.innerHTML = '<p class="no-result">該当するデータが見つかりませんでした</p>';
+        results.innerHTML = '<div class="no-result">該当するデータが見つかりませんでした<br><a href="' + SPREADSHEET_URL + '" target="_blank" rel="noopener" style="color:#de1b65; font-size:0.85rem;">スプレッドシートで直接確認する →</a></div>';
         highlightTable1 = null;
         highlightTable2 = null;
         updateLayoutMarkers();
