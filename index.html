@@ -26,44 +26,51 @@
     /* ヘッダー */
     .header {
       background: #384860;
-      padding: 1.5rem 1rem;
+      padding: 0.8rem 1rem;
       text-align: center;
     }
     .header-logo {
-      max-width: 380px;
-      width: 80%;
+      max-width: 320px;
+      width: 70%;
       height: auto;
       display: block;
-      margin: 0 auto 0.6rem;
+      margin: 0 auto 0.4rem;
     }
     /* 開催回バッジ */
     .round-badge {
       display: inline-block;
       background: #478e21;
       color: #fff;
-      padding: 0.4rem 1.4rem;
+      padding: 0.3rem 1.2rem;
       border-radius: 40px;
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 700;
-      margin-top: 0.6rem;
+      margin-top: 0.3rem;
     }
 
-    /* 説明書き */
-    .description-bar {
-      background: #fff;
-      border-bottom: 2px solid #e0ddd5;
-      padding: 0.8rem 1rem;
+    /* 検索ボックス内の案内テキスト */
+    .search-guide {
       text-align: center;
-      font-size: 0.95rem;
+      font-size: 0.9rem;
       color: #384860;
       font-weight: 700;
-      line-height: 1.8;
+      margin-bottom: 1rem;
+      padding-bottom: 0.8rem;
+      border-bottom: 1px solid #e0ddd5;
+    }
+    /* レイアウト付近の説明文 */
+    .group-notice {
+      text-align: center;
+      font-size: 0.95rem;
+      color: #de1b65;
+      font-weight: 700;
+      margin-bottom: 0.8rem;
     }
 
     /* 検索エリア */
     .search-container {
-      max-width: 640px;
-      margin: 1rem auto 2rem;
+      max-width: 700px;
+      margin: 1rem auto 1.5rem;
       padding: 0 1rem;
     }
     .search-box {
@@ -542,7 +549,7 @@
 
     /* サポート案内 */
     .support-info {
-      font-size: 0.78rem;
+      font-size: 0.85rem;
       color: #a09d95;
       line-height: 1.7;
     }
@@ -557,9 +564,11 @@
     /* フッター */
     .footer {
       text-align: center;
-      padding: 1.5rem 1rem;
+      padding: 2rem 1rem;
       font-size: 0.75rem;
       color: #a09d95;
+      border-top: 1px solid #e0ddd5;
+      margin-top: 1rem;
     }
     .footer .update-time {
       display: block;
@@ -569,8 +578,8 @@
     }
 
     @media (max-width: 480px) {
-      .header-logo { max-width: 260px; }
-      .round-badge { font-size: 0.95rem; padding: 0.35rem 1rem; }
+      .header-logo { max-width: 240px; }
+      .round-badge { font-size: 0.85rem; padding: 0.3rem 0.9rem; }
       .search-box { padding: 1rem; }
       .search-field input::placeholder { font-size: 0.75rem; }
       .round-section { padding: 0.8rem; }
@@ -589,10 +598,9 @@
     <div class="round-badge">1回目 座席検索</div>
   </div>
 
-  <div class="description-bar">はじめは、【グループ①】の席に座ってください</div>
-
   <div class="search-container">
     <div class="search-box">
+      <div class="search-guide">リベシティ名またはプロフィールURLを入力して検索してください</div>
       <div class="search-field">
         <label for="searchName">リベシティ名</label>
         <input type="text" id="searchName" placeholder="例：リーマンくん">
@@ -617,13 +625,17 @@
       <span><span class="legend-dot round2"></span> グループ②</span>
     </div>
     <div class="layout-wrapper">
+      <div class="group-notice" style="padding-top:0.5rem;">はじめは、【グループ①】の席に座ってください</div>
       <div class="layout-grid" id="layoutGrid"></div>
-      <div style="display:grid; grid-template-columns: auto repeat(5, 1fr); gap:3px; padding: 0 0.5rem 0.5rem;">
+      <div style="display:grid; grid-template-columns: auto repeat(10, 1fr); gap:3px; padding: 0 0.5rem 0.5rem;">
         <div></div>
         <div></div>
-        <div class="layout-entrance">入口</div>
         <div></div>
-        <div class="layout-entrance">入口</div>
+        <div class="layout-entrance" style="grid-column: span 2;">入口</div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div class="layout-entrance" style="grid-column: span 2;">入口</div>
         <div></div>
       </div>
     </div>
@@ -718,7 +730,7 @@
 
         buildLists();
         buildLayoutGrid();
-        results.innerHTML = '<p class="no-result">リベシティ名またはプロフィールURLを入力して検索してください</p>';
+        results.innerHTML = '';
 
       } catch (e) {
         showError('アクセスが集中しています', '時間をあけて再度アクセスしてください。\nスプレッドシートからも確認できます。');
@@ -746,7 +758,7 @@
       const results = document.getElementById('results');
 
       if (!nameQuery && !urlQuery) {
-        results.innerHTML = '<p class="no-result">リベシティ名またはプロフィールURLを入力して検索してください</p>';
+        results.innerHTML = '';
         highlightTable1 = null;
         highlightTable2 = null;
         updateLayoutMarkers();
