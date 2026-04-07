@@ -730,32 +730,23 @@
       return div.innerHTML;
     }
 
-    // テーブル配置図を構築（データから動的に生成）
-    function buildLayoutGrid() {
-      // テーブルIDからカラム(A-E)と番号を抽出
-      const columns = {};
-      let maxNum = 0;
-      for (const id of allTableIds) {
-        const match = id.match(/^([A-Z])-(\d+)$/);
-        if (!match) continue;
-        const col = match[1];
-        const num = parseInt(match[2]);
-        if (!columns[col]) columns[col] = new Set();
-        columns[col].add(num);
-        if (num > maxNum) maxNum = num;
+    // 有効なテーブルID一覧（画像の配置図に基づく固定値）
+    const VALID_TABLES = new Set();
+    const LAYOUT_COLS = ['A', 'B', 'C', 'D', 'E'];
+    const LAYOUT_MAX_NUM = 12;
+    for (const col of LAYOUT_COLS) {
+      for (let n = 1; n <= LAYOUT_MAX_NUM; n++) {
+        VALID_TABLES.add(`${col}-${n}`);
       }
+    }
 
-      const colLetters = Object.keys(columns).sort();
-      if (colLetters.length === 0) return;
-
-      // 色マッピング
+    // テーブル配置図を構築（画像通りの固定レイアウト: A-1〜E-12）
+    function buildLayoutGrid() {
       const colColors = { A: 'col-A', B: 'col-B', C: 'col-C', D: 'col-D', E: 'col-E' };
-
-      // 行数（2テーブルずつペア: 1-2, 3-4, 5-6, ...）
-      const rowPairs = Math.ceil(maxNum / 2);
+      const rowPairs = LAYOUT_MAX_NUM / 2; // 6行
 
       const grid = document.getElementById('layoutGrid');
-      grid.style.gridTemplateColumns = `auto repeat(${colLetters.length}, 1fr)`;
+      grid.style.gridTemplateColumns = `auto repeat(${LAYOUT_COLS.length}, 1fr)`;
       grid.style.gridTemplateRows = `repeat(${rowPairs}, auto)`;
 
       // ステージ
@@ -769,37 +760,22 @@
       for (let row = rowPairs; row >= 1; row--) {
         const num1 = row * 2 - 1;
         const num2 = row * 2;
-        for (const col of colLetters) {
+        for (const col of LAYOUT_COLS) {
           const cell = document.createElement('div');
           cell.className = 'layout-cell';
+          const colorClass = colColors[col];
 
-          const colorClass = colColors[col] || 'col-A';
+          const t1 = document.createElement('div');
+          t1.className = `layout-table ${colorClass}`;
+          t1.id = `layout-${col}-${num1}`;
+          t1.textContent = `${col}-${num1}`;
+          cell.appendChild(t1);
 
-          // 左テーブル（奇数）
-          if (columns[col] && columns[col].has(num1)) {
-            const t = document.createElement('div');
-            t.className = `layout-table ${colorClass}`;
-            t.id = `layout-${col}-${num1}`;
-            t.textContent = `${col}-${num1}`;
-            cell.appendChild(t);
-          } else {
-            const empty = document.createElement('div');
-            empty.style.minWidth = '30px';
-            cell.appendChild(empty);
-          }
-
-          // 右テーブル（偶数）
-          if (columns[col] && columns[col].has(num2)) {
-            const t = document.createElement('div');
-            t.className = `layout-table ${colorClass}`;
-            t.id = `layout-${col}-${num2}`;
-            t.textContent = `${col}-${num2}`;
-            cell.appendChild(t);
-          } else {
-            const empty = document.createElement('div');
-            empty.style.minWidth = '30px';
-            cell.appendChild(empty);
-          }
+          const t2 = document.createElement('div');
+          t2.className = `layout-table ${colorClass}`;
+          t2.id = `layout-${col}-${num2}`;
+          t2.textContent = `${col}-${num2}`;
+          cell.appendChild(t2);
 
           grid.appendChild(cell);
         }
