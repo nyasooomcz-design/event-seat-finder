@@ -1,6 +1,6 @@
 {
   "description": "・はじめは、【グループ①】の席に座ってください\n・グループメンバーは、シート２、シート３で確認できます\n・テーブルレイアウト図は、シート４で拡大表示できます",
-  "updatedAt": "2026-04-07 17:17",
+  "updatedAt": "2026-04-07 17:50",
   "warnings": [
     "むぅ@ブログ x 資産防衛: グループ②「D-21」が不正です"
   ],
@@ -3844,6 +3844,118 @@
       "serial1": "D-5-6",
       "table2": "A-12",
       "serial2": "D-6-3"
+    },
+    {
+      "name": "しおりーぬ",
+      "url": "https://libecity.com/user_profile/08hN6XczWsOYX8UV6nUkZstHxf83",
+      "table1": "C-7",
+      "serial1": "C-7-5",
+      "table2": "A-12",
+      "serial2": "B-02-6"
+    },
+    {
+      "name": "ayabe",
+      "url": "https://libecity.com/user_profile/fKA7hjYnpaMA3WwTq5e4dKHsucI3",
+      "table1": "A-7",
+      "serial1": "A-7-4",
+      "table2": "A-4",
+      "serial2": "B-4-1"
+    },
+    {
+      "name": "おの",
+      "url": "https://libecity.com/user_profile/rMF8JbgDK6Mq4JWi9NEzcJhHTxu1",
+      "table1": "D-4",
+      "serial1": "D-04-5",
+      "table2": "A-9",
+      "serial2": "C-03-6"
+    },
+    {
+      "name": "レオ",
+      "url": "https://libecity.com/user_profile/kHyRHYH7SndjDXb5OvLezmxDMXq2",
+      "table1": "A-1",
+      "serial1": "A-1-4",
+      "table2": "C-7",
+      "serial2": "B-5-5"
+    },
+    {
+      "name": "nana（奈那）",
+      "url": "https://libecity.com/user_profile/L2BfpdRIeIQuqB3L6eZyFgcCtPz1",
+      "table1": "D-9",
+      "serial1": "D-09-5",
+      "table2": "C-10",
+      "serial2": "A-6-4"
+    },
+    {
+      "name": "ひろ",
+      "url": "https://libecity.com/user_profile/3qcOFLdes0UPI9GGO505epqvmig1",
+      "table1": "D-11",
+      "serial1": "D-11-1",
+      "table2": "C-10",
+      "serial2": "D-3-5"
+    },
+    {
+      "name": "うれい",
+      "url": "https://libecity.com/user_profile/cF4wJdUG1nXFyyF3A5i7fWJhVVt1",
+      "table1": "A-3",
+      "serial1": "A-3-5",
+      "table2": "C-5",
+      "serial2": "A-12-6"
+    },
+    {
+      "name": "おいね",
+      "url": "https://libecity.com/user_profile/EDzcArwRPRScFahva0QMtcku31f2",
+      "table1": "C-5",
+      "serial1": "C-05-2",
+      "table2": "D-4",
+      "serial2": "B-10-6"
+    },
+    {
+      "name": "Asuka",
+      "url": "https://libecity.com/user_profile/0lL9yUK01hVD82y2DflvKIXXO522",
+      "table1": "D-7",
+      "serial1": "D-7-4",
+      "table2": "D-10",
+      "serial2": "C-12-2"
+    },
+    {
+      "name": "はーちゃん",
+      "url": "https://libecity.com/user_profile/FDAol9AahnQYNP50wUoxqHFKGo12",
+      "table1": "B-4",
+      "serial1": "B-04-4",
+      "table2": "A-6",
+      "serial2": "D-4-5"
+    },
+    {
+      "name": "ティーレモン",
+      "url": "https://libecity.com/user_profile/ph8QWTXY6FbizDPKkM7T3ATnttY2",
+      "table1": "B-11",
+      "serial1": "B-11-3",
+      "table2": "A-3",
+      "serial2": "D-5-2"
+    },
+    {
+      "name": "ナッツ",
+      "url": "https://libecity.com/user_profile/bAZMpcISo5dLHtzULhA4hfO7BQP2",
+      "table1": "A-7",
+      "serial1": "A-07-3",
+      "table2": "B-1",
+      "serial2": "D-08-3"
+    },
+    {
+      "name": "なっち",
+      "url": "https://libecity.com/user_profile/7Y9eV53R4BaLWEfMn6vfzQeJpCz2",
+      "table1": "C-10",
+      "serial1": "C-10-2",
+      "table2": "D-8",
+      "serial2": "D-8-3"
+    },
+    {
+      "name": "ギズモ",
+      "url": "https://libecity.com/user_profile/AUJKb6VHBEQ7skbimWk3k0JNtsl1",
+      "table1": "A-12",
+      "serial1": "A-12-1",
+      "table2": "D-6",
+      "serial2": "D-10-6"
     }
   ]
 }
